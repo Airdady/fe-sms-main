@@ -12,8 +12,9 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import Head from "next/head";
+import Dropdown from "./Dropdown";
 
-const pages = ["Products", "Developers", "Pricing", "Company"];
+const pages = ["Developers", "Pricing", "Company"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 export default function ButtonAppBar() {
@@ -61,6 +62,7 @@ export default function ButtonAppBar() {
             </Typography>
             <Box display="flex">
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+                <Dropdown/>
                 {pages.map((page) => (
                   <Button
                     key={page}

@@ -84,10 +84,10 @@ const Verification: NextPage = () => {
             <Grid item xs={7}>
               <Box display="flex" alignItems="center" justifyContent="center">
                 <Image
-                  src="/verification-illustration.svg"
-                  alt="verefication illustration"
+                  src="/verification.svg"
+                  alt="verification illustration"
                   width={400}
-                  height={500}
+                  height={400}
                 />
               </Box>
             </Grid>

@@ -1,14 +1,6 @@
 import React from "react";
 import { Box } from "@mui/system";
-import {
-  Button,
-  Container,
-  Grid,
-  List,
-  ListItem,
-  Paper,
-  Typography,
-} from "@mui/material";
+import { Button, Container, Grid, Paper, Typography } from "@mui/material";
 import Link from "next/link";
 
 export default function Footer() {
@@ -19,14 +11,14 @@ export default function Footer() {
           flexGrow: 1,
           pt: 6,
           background: "#003748",
-          color:'whitesmoke'
+          color: "whitesmoke",
         }}
       >
         <Container sx={{ mb: 5 }} maxWidth="lg">
           <Grid container spacing={3}>
             <Grid item md={6}>
               <Typography variant="subtitle2">Contact</Typography>
-              <Box sx={{ my: 1 }}>
+              <Box sx={{ "*": { my: 1 }, my: 2 }}>
                 <Link href="/">
                   <a>(793) 151-6230</a>
                 </Link>
@@ -37,7 +29,7 @@ export default function Footer() {
             </Grid>
             <Grid item md={2}>
               <Typography variant="subtitle2">Our Products</Typography>
-              <Box sx={{ my: 1 }}>
+              <Box sx={{ "*": { my: 1 }, my: 2 }}>
                 <Typography variant="body2" gutterBottom>
                   <Link href="/sms">
                     <a>SMS API</a>
@@ -52,7 +44,7 @@ export default function Footer() {
             </Grid>
             <Grid item md={2}>
               <Typography variant="subtitle2">Developers</Typography>
-              <Box sx={{ my: 1 }}>
+              <Box sx={{ "*": { my: 1 }, my: 2 }}>
                 <Typography variant="body2" gutterBottom>
                   <Link href="/documentation">
                     <a>Documentation</a>
@@ -77,7 +69,7 @@ export default function Footer() {
             </Grid>
             <Grid item md={2}>
               <Typography variant="subtitle2">Legal</Typography>
-              <Box sx={{ my: 1 }}>
+              <Box sx={{ "*": { my: 1 }, my: 2 }}>
                 <Typography variant="body2" gutterBottom>
                   <Link href="/terms_of_service">
                     <a>Terms of service</a>
@@ -103,7 +95,6 @@ export default function Footer() {
               display="flex"
               alignItems="center"
               justifyContent="space-between"
-
             >
               <Typography color="whitesmoke" variant="body2">
                 Copyright {new Date().getFullYear()} Airdady.com
