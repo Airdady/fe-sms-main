@@ -21,20 +21,18 @@ const Verification: NextPage = () => {
     <Box>
       <ResponsiveAppBar />
       <Box sx={{ bgcolor: "#41AACB", width: "100vw", height: "500px" }}>
-        <Container
-          style={{
-            backgroundRepeat: "no-repeat",
-            backgroundImage: `url(/map-illustration.svg)`,
-            backgroundPosition: "right",
-          }}
-          maxWidth="lg"
-        >
+        <Container maxWidth="lg">
           <Grid container spacing={2} p={3}>
             <Grid item xs={5}>
               <Box mt={6} display="flex" justifyContent="center">
                 <Box mt="auto">
-                  <Typography variant="h3" component="div" gutterBottom>
-                    Verification Api
+                  <Typography
+                    variant="h3"
+                    sx={{ fontWeight: "bold" }}
+                    component="div"
+                    gutterBottom
+                  >
+                    SMS Api
                   </Typography>
                   <Typography variant="h6" gutterBottom>
                     Increase the registration conversion rate and speed up your
@@ -95,11 +93,11 @@ const Verification: NextPage = () => {
         </Container>
       </Box>
       <Benefit />
-      <Pricing/>
-      <CodeSection/>
-      <Industry/>
-      <GetStarted/>
-      <Footer/>
+      <Pricing />
+      <CodeSection />
+      <Industry />
+      <GetStarted />
+      <Footer />
     </Box>
   );
 };

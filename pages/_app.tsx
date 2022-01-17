@@ -8,6 +8,11 @@ const theme = createTheme({
     fontFamily: "Poppins, sans-serif",
     fontWeightRegular:'400',
   },
+  palette: {
+    primary: {
+      main: '#008BB7',
+    }
+  },
 });
 
 function MyApp({ Component, pageProps }: AppProps) {

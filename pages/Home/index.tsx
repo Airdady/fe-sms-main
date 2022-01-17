@@ -15,24 +15,27 @@ import CodeSection from "./CodeSection";
 import Industry from "./Industry";
 import GetStarted from "../../components/GetStarted";
 import Footer from "../../components/Footer";
+import Contact from "./Contact";
 
 const Verification: NextPage = () => {
   return (
     <Box>
       <ResponsiveAppBar />
       <Box sx={{ bgcolor: "#41AACB", width: "100vw", height: "500px" }}>
-        <Container  maxWidth="lg">
+        <Container
+          style={{
+            backgroundRepeat: "no-repeat",
+            backgroundImage: `url(/map-illustration.svg)`,
+            backgroundPosition: "right",
+          }}
+          maxWidth="lg"
+        >
           <Grid container spacing={2} p={3}>
             <Grid item xs={5}>
               <Box mt={6} display="flex" justifyContent="center">
                 <Box mt="auto">
-                  <Typography
-                    variant="h3"
-                    sx={{ fontWeight: "bold" }}
-                    component="div"
-                    gutterBottom
-                  >
-                    Verification Api
+                  <Typography variant="h3" component="div" gutterBottom>
+                    Messaging Api Provider
                   </Typography>
                   <Typography variant="h6" gutterBottom>
                     Increase the registration conversion rate and speed up your
@@ -93,11 +96,11 @@ const Verification: NextPage = () => {
         </Container>
       </Box>
       <Benefit />
-      <Pricing />
-      <CodeSection />
-      <Industry />
-      <GetStarted />
-      <Footer />
+      <Pricing/>
+      {/* <CodeSection/> */}
+      <Industry/>
+      <Contact/>
+      <Footer/>
     </Box>
   );
 };

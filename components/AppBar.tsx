@@ -13,6 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import Head from "next/head";
 import Dropdown from "./Dropdown";
+import Link from "next/link";
 
 const pages = ["Developers", "Pricing", "Company"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -52,7 +53,10 @@ export default function ButtonAppBar() {
           href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet"
         />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-cave-dark.min.css"/>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-cave-dark.min.css"
+        />
       </Head>
       <AppBar sx={{ bgcolor: "#41AACB" }} position="static">
         <Container maxWidth="lg">
@@ -62,7 +66,7 @@ export default function ButtonAppBar() {
             </Typography>
             <Box display="flex">
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-                <Dropdown/>
+                <Dropdown />
                 {pages.map((page) => (
                   <Button
                     key={page}
@@ -79,38 +83,46 @@ export default function ButtonAppBar() {
                   </Button>
                 ))}
               </Box>
-              <Button
-                sx={{
-                    m: 2,
-                    textTransform: "capitalize",
-                    display: "block",
-                    fontFamily: "poppins",
-                    fontWeight: 400,
-                    backgroundColor: 'white',
-                    color:"black",
-                    px:3
-                  }}
-              >
-                Login
-              </Button>
-              <Button
-                sx={{
-                  m: 2,
-                  ml:2,
-                  textTransform: "capitalize",
-                  display: "block",
-                  fontFamily: "poppins",
-                  fontWeight: 400,
-                  backgroundColor: '#008BB7',
-                  color:"white",
-                  px:3,
-                  py:1
-                }}
-                color="inherit"
-                size="small"
-              >
-                Get Api Keys
-              </Button>
+              <Link href="/login">
+                <a>
+                  <Button
+                    sx={{
+                      m: 2,
+                      textTransform: "capitalize",
+                      display: "block",
+                      fontFamily: "poppins",
+                      fontWeight: 400,
+                      backgroundColor: "white",
+                      color: "black",
+                      px: 3,
+                    }}
+                  >
+                    Login
+                  </Button>
+                </a>
+              </Link>
+              <Link href="/register">
+                <a>
+                  <Button
+                    sx={{
+                      m: 2,
+                      ml: 2,
+                      textTransform: "capitalize",
+                      display: "block",
+                      fontFamily: "poppins",
+                      fontWeight: 400,
+                      backgroundColor: "#008BB7",
+                      color: "white",
+                      px: 3,
+                      py: 1,
+                    }}
+                    color="inherit"
+                    size="small"
+                  >
+                    Get Api Keys
+                  </Button>
+                </a>
+              </Link>
             </Box>
           </Toolbar>
         </Container>
