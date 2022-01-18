@@ -2,12 +2,13 @@
   max-width: 300px;
 }
 .login-form-forgot {
-  float: right;
-}
-.ant-col-rtl .login-form-forgot {
   float: left;
+  text-decoration: none;
+  color: #000000
 }
+
 .login-form-button {
-  width: 100%;
+  width: 50%;
   margin-bottom: .5rem;
+  float: right;
 }
