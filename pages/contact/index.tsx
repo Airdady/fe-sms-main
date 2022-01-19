@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import styles from "../../styles/Home.module.css";
+
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import ResponsiveAppBar from "../../components/AppBar";
@@ -14,6 +14,7 @@ import {
   ListItemIcon,
   ListItemText,
 } from "@mui/material";
+import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
@@ -21,9 +22,8 @@ import Footer from "../../components/Footer";
 import Item from "antd/lib/list/Item";
 import FolderIcon from "@mui/icons-material/Folder";
 import SimpleMap from "./SimpleMap";
-
 import React from "react";
-import { Form, Input, Button, Checkbox } from "antd";
+import { Form, Input, Checkbox } from "antd";
 import AField from "../../components/AField";
 
 const Contact: NextPage = () => {
@@ -34,77 +34,130 @@ const Contact: NextPage = () => {
       <Box
         sx={{
           bgcolor: "#41AACB",
-          width: "100vw",
+          width: "100%",
           height: "200px",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
         }}
       >
-        <Typography variant="h3">Contact Us</Typography>
+        <Typography
+          variant="h3"
+          sx={{ fontFamily: "poppins", fontWeight: 600, mt: -4.7 }}
+        >
+          Contact Us
+        </Typography>
       </Box>
       <Container>
-        <Box sx={{ height: "180vh" }}>
+        <Box sx={{ mb: 7 }}>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={12} md={12}>
-              <Box textAlign="center" mb={3}>
-                <Typography variant="h6" color="#008BB7">
+              <Box textAlign="center" mb={3} mt={6.3}>
+                <Typography
+                  color="#008BB7"
+                  sx={{ fontSize: 24, fontFamily: "poppins", fontWeight: 700 }}
+                >
                   Get in Touch
                 </Typography>
               </Box>
             </Grid>
 
-            <Grid item xs={12} sm={6} md={6}>
-              <Typography variant="h6" ml={2}>
+            <Grid item xs={12} sm={6} md={6} sx={{ padding: 3 }}>
+              <Typography
+                variant="h6"
+                ml={0}
+                color="#0F001A"
+                sx={{ fontSize: 20, fontFamily: "poppins", fontWeight: 400 }}
+              >
                 Leave us a message
               </Typography>
               <form>
                 <AField placeHolder="name" />
                 <AField placeHolder="email" />
-                <AField placeHolder="phone number" />
                 <AField component="textarea" placeHolder="Message" />
               </form>
               <Button
-                type="primary"
-                htmlType="submit"
-                className={styles["login-form-button"]}
+                sx={{
+                  marginTop: 5.3,
+                  width: "100%",
+                  color: "white",
+                  fontSize: "16px",
+
+                  pb: 0.3,
+                  textTransform: "none",
+                  display: "block",
+                  fontFamily: "poppins",
+                  fontWeight: 400,
+                  bgcolor: "#41AACB",
+                }}
               >
                 Send
               </Button>
             </Grid>
 
-            <Grid item xs={12} sm={6} md={6}>
+            <Grid
+              item
+              xs={12}
+              sm={6}
+              md={6}
+              sx={{ marginTop: 2.3, mb: 0, padding: 1 }}
+            >
               <List>
                 <ListItem>
-                  <ListItemIcon>
-                    <FolderIcon />
+                  <ListItemIcon sx={{ m: 0 }}>
+                    <Image
+                      src="/location.svg"
+                      alt="verification illustration"
+                      width={40}
+                      height={40}
+                    />
                   </ListItemIcon>
-                  <ListItemText primary="205 Limestone Rd STE 200C" />
+                  <Typography sx={{ fontSize: 16 }}>
+                    205 Limestone Rd STE 200C
+                  </Typography>
                 </ListItem>
 
-                <ListItem>
+                <ListItem sx={{ paddingTop: 0.5 }}>
                   <ListItemIcon>
-                    <FolderIcon />
+                    <Image
+                      src="/telephone.svg"
+                      alt="verification illustration"
+                      width={40}
+                      height={40}
+                    />
                   </ListItemIcon>
-                  <ListItemText primary="+256200957272" />
+                  <Typography sx={{ fontSize: 16 }}>+256200957272</Typography>
                 </ListItem>
 
-                <ListItem>
+                <ListItem sx={{ paddingTop: 0.5 }}>
                   <ListItemIcon>
-                    <FolderIcon />
+                    <Image
+                      src="/email.svg"
+                      alt="verification illustration"
+                      width={40}
+                      height={40}
+                    />
                   </ListItemIcon>
-                  <ListItemText primary="hello@airdady.com" />
+                  <Typography sx={{ fontSize: 16 }}>
+                    hello@airdady.com
+                  </Typography>
                 </ListItem>
               </List>
-              <SimpleMap />
+              <Box sx={{ width: "100%" }}>
+                <SimpleMap />
+              </Box>
             </Grid>
 
-            <Grid item xs={12} sm={6} md={6}>
-              <Card sx={{ minWidth: 275 }}>
+            <Grid item xs={12} sm={6} md={6} sx={{ marginTop: 3 }}>
+              <Card sx={{ minWidth: 275, bgcolor: "#ECECEC", boxShadow: 0 }}>
                 <CardContent>
                   <Typography
-                    sx={{ fontSize: 14 }}
-                    color="text.secondary"
+                    sx={{
+                      fontSize: 16,
+                      fontFamily: "poppins",
+                      fontWeight: 400,
+                    }}
+                    color="#000000"
                     gutterBottom
                   >
                     Main street Hoima - Hoima City Uganda
@@ -117,12 +170,16 @@ const Contact: NextPage = () => {
               </Card>
             </Grid>
 
-            <Grid item xs={12} sm={6} md={6}>
-              <Card sx={{ minWidth: 275 }}>
+            <Grid item xs={12} sm={6} md={6} sx={{ marginTop: 3 }}>
+              <Card sx={{ minWidth: 275, bgcolor: "#ECECEC", boxShadow: 0 }}>
                 <CardContent>
                   <Typography
-                    sx={{ fontSize: 14 }}
-                    color="text.secondary"
+                    sx={{
+                      fontSize: 16,
+                      fontFamily: "poppins",
+                      fontWeight: 400,
+                    }}
+                    color="#000000"
                     gutterBottom
                   >
                     205 Limestone Rd STE 200C WilmingTon -U.S.A
@@ -136,8 +193,8 @@ const Contact: NextPage = () => {
             </Grid>
           </Grid>
         </Box>
-        <Footer />
       </Container>
+      <Footer />
     </Box>
   );
 };
