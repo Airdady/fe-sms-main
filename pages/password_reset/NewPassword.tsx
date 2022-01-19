@@ -33,9 +33,9 @@ const Login: NextPage = () => {
       >
         <Box sx={{ width: "100%" }}>
           <Box textAlign="center" mb={3}>
-            <Typography variant="h6">Password Reset</Typography>
+            <Typography variant="h6">Enter New Password</Typography>
             <Typography variant="body2">
-            Please Enter the email you used to register 
+            Please Enter your new password to continue 
             </Typography>
           </Box>
           <Form
