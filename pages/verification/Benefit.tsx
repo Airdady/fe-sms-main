@@ -3,7 +3,16 @@ import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
-import { Container, Typography } from "@mui/material";
+import Image from "next/image";
+import {
+  Container,
+  Typography,
+  CardMedia,
+  Button,
+  CardContent,
+  CardActions,
+} from "@mui/material";
+import Card from "../../components/Card";
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -11,7 +20,7 @@ const Item = styled(Paper)(({ theme }) => ({
   boxShadow: "none",
   color: theme.palette.text.secondary,
   display: "flex",
-  height:"100%"
+  height: "100%",
 }));
 
 const Benefit = () => {
@@ -21,81 +30,37 @@ const Benefit = () => {
         <Typography textAlign="center" variant="h6" gutterBottom>
           Assist new user registration and activation to retain every customer
         </Typography>
+
         <Grid
           container
           rowSpacing={1}
           sx={{ mt: 4 }}
           columnSpacing={{ xs: 1, sm: 2, md: 3 }}
         >
-          <Grid item xs={4}>
-            <Item>
-              <Box
-                sx={{
-                  width: 100,
-                  height: 100,
-                  mx: "auto",
-                  my: 1,
-                  bgcolor: "rgb(231, 235, 240)",
-                  borderRight:"solid #41aacb"
-                }}
-              />
-              <Box p={3}>
-                <Typography variant="h6" gutterBottom>
-                  Convenient log in
-                </Typography>
-                <Typography variant="body2" gutterBottom>
-                  Dynamic authentication improves retention rate by eliminating
-                  the need to remember complex passwords
-                </Typography>
-              </Box>
-            </Item>
+          <Grid item xs={12} sm={12} md={4}>
+            <Card
+              mainText="Convenient log in"
+              subText="Dynamic authentication improves retention rate by eliminating the
+            need to remember complex passwords"
+              svgname="/convenient.svg"
+            />
           </Grid>
-          <Grid item xs={4}>
-            <Item>
-              <Box
-                sx={{
-                  width: 100,
-                  height: 100,
-                  mx: "auto",
-                  my: 1,
-                  bgcolor: "rgb(231, 235, 240)",
-                  borderRight:"solid #41aacb"
-                }}
-              />
-              <Box p={3}>
-                <Typography variant="h6" gutterBottom>
-                  Ensure safety
-                </Typography>
-                <Typography variant="body2" gutterBottom>
-                  Sensitive operations are confirmed and authenticated to reduce
+          <Grid item xs={12} sm={12} md={4}>
+            <Card
+              mainText="Ensure safety"
+              subText="Sensitive operations are confirmed and authenticated to reduce
                   malicious operations by illegal users and ensure account
-                  security
-                </Typography>
-              </Box>
-            </Item>
+                  security"
+              svgname="/safety.svg"
+            />
           </Grid>
-          <Grid item xs={4}>
-            <Item>
-              <Box
-                sx={{
-                  width: 100,
-                  height: 100,
-                  mx: "auto",
-                  my: 1,
-                  bgcolor: "rgb(231, 235, 240)",
-                  borderRight:"solid #41aacb"
-                }}
-              />
-              <Box p={3}>
-                <Typography variant="h6" gutterBottom>
-                  Identity authentication
-                </Typography>
-                <Typography variant="body2" gutterBottom>
-                  Guarantee the authenticity of registration, mobile phone
-                  number binding, retrieve password, and avoid repeated data
-                </Typography>
-              </Box>
-            </Item>
+          <Grid item xs={12} sm={12} md={4}>
+            <Card
+              mainText="Identity authentication"
+              subText="Guarantee the authenticity of registration, mobile phone
+                  number binding, retrieve password, and avoid repeated data"
+              svgname="/identity.svg"
+            />
           </Grid>
         </Grid>
       </Container>
