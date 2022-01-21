@@ -1,27 +1,28 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Image from "next/image";
-import { Container, Typography } from "@mui/material";
+import { Container, Typography, Stack, Card, CardContent } from "@mui/material";
 
 const Benefit = () => {
   return (
     <>
-      <Box sx={{ width: "100%", py: 4, backgroundColor: "rgb(231, 235, 240)" }}>
-        <Container maxWidth="lg">
-          <Grid
-            container
-            rowSpacing={1}
-            columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-          >
-            <Grid item xs={12}>
-              <Box sx={{ display: "flex" }}>
+      <Grid container>
+        <Grid item xs={12} sm={12} md={8} lg={8}>
+          <Grid item xs={12} sm={12} md={12} lg={12}>
+            <Stack
+              direction={{ xs: "column", lg: "row" }}
+              sx={{
+                backgroundColor: "rgb(231, 235, 240)",
+              }}
+            >
+              <Grid item xs={12} sm={12} md={4} lg={12}>
                 <Box
                   sx={{
-                    mx: "auto",
-                    my: 1,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
                   }}
                 >
                   <Image
@@ -31,50 +32,136 @@ const Benefit = () => {
                     height={250}
                   />
                 </Box>
-                <Box p={3}>
-                  <Typography variant="h6" gutterBottom>
-                    Convenient log in
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={8} lg={12}>
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    p: 3,
+                  }}
+                >
+                  <Typography sx={{ fontSize: 18, fontWeight: "bolder" }}>
+                    Improve customer experience and extend customer life cycle
                   </Typography>
-                  <Typography variant="body2" gutterBottom>
-                    Dynamic authentication improves retention rate by
-                    eliminating the need to remember complex passwords
+                  <Typography>
+                    Send care and reminders to customers on holidays, members'
+                    birthdays and other time nodes, creating experience that
+                    customers value in the process of communication
                   </Typography>
                 </Box>
-              </Box>
-            </Grid>
+              </Grid>
+            </Stack>
           </Grid>
-        </Container>
-      </Box>
-      <Container maxWidth="lg">
-        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-          <Grid item xs={12}>
-            <Box sx={{ display: "flex" }}>
-              <Box p={3}>
-                <Typography variant="h6" gutterBottom>
-                  Convenient log in
-                </Typography>
-                <Typography variant="body2" gutterBottom>
-                  Dynamic authentication improves retention rate by eliminating
-                  the need to remember complex passwords
-                </Typography>
-              </Box>
-              <Box
-                sx={{
-                  mx: "auto",
-                  my: 1,
-                }}
-              >
-                <Image
-                  src="/sms-illustration-1.svg"
-                  alt="sms illustration"
-                  width={250}
-                  height={250}
-                />
-              </Box>
-            </Box>
+
+          <Grid item xs={12} sm={12} md={12} lg={12}>
+            <Stack
+              direction={{ xs: "column", lg: "row" }}
+              sx={{
+                backgroundColor: "#ffffff",
+              }}
+            >
+              <Grid item xs={12} sm={12} md={4} lg={12}>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Image
+                    src="/sms-illustration-2.svg"
+                    alt="sms illustration"
+                    width={250}
+                    height={250}
+                  />
+                </Box>
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={8} lg={12}>
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    p: 3,
+                  }}
+                >
+                  <Typography sx={{ fontSize: 18, fontWeight: "bolder" }}>
+                    Improve customer experience and extend customer life cycle
+                  </Typography>
+                  <Typography>
+                    Send care and reminders to customers on holidays, members'
+                    birthdays and other time nodes, creating experience that
+                    customers value in the process of communication
+                  </Typography>
+                </Box>
+              </Grid>
+            </Stack>
           </Grid>
         </Grid>
-      </Container>
+
+        <Grid item xs={12} sm={12} md={4} lg={4}>
+          <Grid item xs={12} sm={12} md={12} lg={12}>
+            <Stack
+              direction={{ xs: "column", lg: "column" }}
+              sx={{
+                backgroundColor: "#ffffff",
+              }}
+            >
+              <Grid item xs={12} sm={12} md={4} lg={12}>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Image
+                    src="/sms-illustration-3.svg"
+                    alt="sms illustration"
+                    width={250}
+                    height={250}
+                  />
+                </Box>
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={8} lg={12}>
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    p: 3,
+                    pb: 7,
+                    backgroundColor: "rgb(231, 235, 240)",
+                  }}
+                >
+                  <Card sx={{ minWidth: 275, position: "relative", top: -53 }}>
+                    <CardContent>
+                      <Typography variant="h5" component="div">
+                        Timely notification of marketing activities to increase
+                        customer conversion
+                      </Typography>
+                    </CardContent>
+                  </Card>
+
+                  <Typography>
+                    Send care and reminders to customers on holidays, members'
+                    birthdays and other time nodes, creating experience that
+                    customers value in the process of communication
+                  </Typography>
+                </Box>
+              </Grid>
+            </Stack>
+          </Grid>
+        </Grid>
+      </Grid>
     </>
   );
 };

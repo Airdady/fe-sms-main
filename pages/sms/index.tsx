@@ -20,7 +20,7 @@ const Verification: NextPage = () => {
   return (
     <Box>
       <ResponsiveAppBar />
-      <Box sx={{ bgcolor: "#41AACB", width: "100vw", height: "500px" }}>
+      <Box sx={{ bgcolor: "#41AACB", width: "100%", height: "500px" }}>
         <Container maxWidth="lg">
           <Grid container spacing={2} p={3}>
             <Grid item xs={5}>
