@@ -13,6 +13,7 @@ import {
   CardContent,
   CardActions,
   Card,
+  IconButton,
 } from "@mui/material";
 // import Card from "../../components/Card";
 
@@ -35,57 +36,110 @@ const Benefit = () => {
 
         <Grid
           container
-          rowSpacing={1}
+          rowSpacing={3.3}
           sx={{ mt: 4 }}
-          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+          columnSpacing={{ xs: 0, sm: 0, md: 0 }}
         >
           <Grid item xs={12} sm={12} md={4}>
             <Card sx={{ minWidth: 275 }}>
               <CardContent>
-                <Box sx={{ width: "20%", ml: "40%", mr: "40%" }}>
-                  <Image
-                    src="/convenient.svg"
-                    alt="convenient illustration"
-                    width={320}
-                    height={320}
-                  />
-                </Box>
-
-                <Typography variant="h4" sx={{ mb: 0 }}>
-                  <p align="center"> Convenient log in </p>
-                </Typography>
-
-                <Typography variant="p">
-                  <p align="center">
+                <Image
+                  src="/convenient.svg"
+                  alt="sms illustration"
+                  width={350}
+                  height={120}
+                />
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexGrow: 1,
+                    textAlign: "center",
+                    p: 3,
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: 18,
+                      fontWeight: "bolder",
+                    }}
+                  >
+                    Convenient log in
+                  </Typography>
+                  <Typography>
                     Dynamic authentication improves retention rate by
-                    eliminating the need to remember complex passwords{" "}
-                  </p>
-                </Typography>
+                    eliminating the need to remember complex passwords
+                  </Typography>
+                </Box>
               </CardContent>
             </Card>
-            {/* <Card
-              mainText="Convenient log in"
-              subText="Dynamic authentication improves retention rate by eliminating the
-            need to remember complex passwords"
-              svgname="/convenient.svg"
-            /> */}
           </Grid>
           <Grid item xs={12} sm={12} md={4}>
-            {/* <Card
-              mainText="Ensure safety"
-              subText="Sensitive operations are confirmed and authenticated to reduce
-                  malicious operations by illegal users and ensure account
-                  security"
-              svgname="/safety.svg"
-            /> */}
+            <Card
+              sx={{ minWidth: 275, pt: 6.3, position: "relative", top: -17.3 }}
+            >
+              <CardContent>
+                <Image
+                  src="/safety.svg"
+                  alt="sms illustration"
+                  width={350}
+                  height={120}
+                />
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexGrow: 1,
+                    textAlign: "center",
+                    p: 3,
+                  }}
+                >
+                  <Typography sx={{ fontSize: 18, fontWeight: "bolder" }}>
+                    Ensure safety
+                  </Typography>
+                  <Typography>
+                    Sensitive operations are confirmed and authenticated to
+                    reduce malicious operations by illegal users and ensure
+                    account securit
+                  </Typography>
+                </Box>
+              </CardContent>
+            </Card>
           </Grid>
           <Grid item xs={12} sm={12} md={4}>
-            {/* <Card
-              mainText="Identity authentication"
-              subText="Guarantee the authenticity of registration, mobile phone
-                  number binding, retrieve password, and avoid repeated data"
-              svgname="/identity.svg"
-            /> */}
+            <Card sx={{ minWidth: 275 }}>
+              <CardContent>
+                <Image
+                  src="/identity.svg"
+                  alt="sms illustration"
+                  width={350}
+                  height={120}
+                />
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexGrow: 1,
+                    textAlign: "center",
+                    p: 3,
+                  }}
+                >
+                  <Typography sx={{ fontSize: 18, fontWeight: "bolder" }}>
+                    Identity authentication
+                  </Typography>
+                  <Typography>
+                    Guarantee the authenticity of registration, mobile phone
+                    number binding, retrieve password, and avoid repeated data
+                  </Typography>
+                </Box>
+              </CardContent>
+            </Card>
           </Grid>
         </Grid>
       </Container>
