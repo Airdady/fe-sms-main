@@ -16,6 +16,7 @@ import Industry from "./Home/Industry";
 import GetStarted from "../components/GetStarted";
 import Footer from "../components/Footer";
 import Contact from "./Home/Contact";
+import Documentation from "./Home/Documentation";
 
 const Verification: NextPage = () => {
   return (
@@ -58,7 +59,7 @@ const Verification: NextPage = () => {
             <Grid item xs={7}>
               <Box display="flex" alignItems="center" justifyContent="center">
                 <Image
-                  src="/verification.svg"
+                  src="/home-banner.svg"
                   alt="verification illustration"
                   width={400}
                   height={400}
@@ -69,11 +70,12 @@ const Verification: NextPage = () => {
         </Container>
       </Box>
       <Benefit />
-      <Pricing />
+      <Documentation />
+      {/* <Pricing />
       <CodeSection />
       <Industry />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </Box>
   );
 };
