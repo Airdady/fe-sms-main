@@ -21,7 +21,7 @@ const Verification: NextPage = () => {
   return (
     <Box>
       <ResponsiveAppBar />
-      <Box sx={{ bgcolor: "#41AACB", width: "100vw", height: "100vh" }}>
+      <Box sx={{ bgcolor: "#41AACB", width: "100%", height: "100vh" }}>
         <Container
           style={{
             backgroundRepeat: "no-repeat",
@@ -47,47 +47,11 @@ const Verification: NextPage = () => {
                     Cloud Messaging Provider
                   </Typography>
                   <Typography variant="h6" gutterBottom>
-                    Increase the registration conversion rate and speed up your
-                    business process
-                  </Typography>
-                  <Typography variant="body2">
                     Help global users to carry out security verification through
                     the fastest way, retain every customer, let customers feel
                     the enterprises efficient service, promote the business
                     development of the enterprise.
                   </Typography>
-                  <Box display="flex" mt={3}>
-                    <Button
-                      sx={{
-                        textTransform: "capitalize",
-                        display: "block",
-                        fontFamily: "poppins",
-                        fontWeight: 400,
-                        backgroundColor: "white",
-                        color: "black",
-                        px: 3,
-                      }}
-                    >
-                      Free Trial
-                    </Button>
-                    <Button
-                      sx={{
-                        ml: 2,
-                        textTransform: "capitalize",
-                        display: "block",
-                        fontFamily: "poppins",
-                        fontWeight: 400,
-                        backgroundColor: "#008BB7",
-                        color: "white",
-                        px: 3,
-                        py: 1,
-                      }}
-                      color="inherit"
-                      size="small"
-                    >
-                      talk to experts
-                    </Button>
-                  </Box>
                 </Box>
               </Box>
             </Grid>
