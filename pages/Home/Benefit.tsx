@@ -27,7 +27,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const Benefit = () => {
   return (
-    <Box sx={{ width: "100%", py: 4, backgroundColor: "rgb(231, 235, 240)" }}>
+    <Box sx={{ width: "100%", py: 4, backgroundColor: "#ffffff" }}>
       <Container maxWidth="lg">
         <Card
           sx={{
