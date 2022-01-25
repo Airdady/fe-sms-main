@@ -18,7 +18,7 @@ import {
 
 const Documentation = () => {
   return (
-    <Box sx={{ width: "100%", py: 4, backgroundColor: "#ffffff" }}>
+    <Box sx={{ width: "100%", py: 1.3, backgroundColor: "#ffffff" }}>
       <Container maxWidth="lg">
         <Card
           sx={{
