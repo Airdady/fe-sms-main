@@ -126,7 +126,6 @@ const Coverage: NextPage = () => {
           </Grid>
         </Container>
       </Box>
-      <Image src="/map-illustration-dark.svg" width={200} height={200} />
     </Box>
   );
 };
