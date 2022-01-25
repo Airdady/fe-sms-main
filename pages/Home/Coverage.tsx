@@ -12,7 +12,7 @@ import Button from "@mui/material/Button";
 
 const Coverage: NextPage = () => {
   return (
-    <Box>
+    <Box sx={{ mb: 7 }}>
       <Box
         sx={{
           bgcolor: "#41AACB",

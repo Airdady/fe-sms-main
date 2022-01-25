@@ -16,15 +16,6 @@ import {
   IconButton,
 } from "@mui/material";
 
-const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  boxShadow: "none",
-  color: theme.palette.text.secondary,
-  display: "flex",
-  height: "100%",
-}));
-
 const Benefit = () => {
   return (
     <Box sx={{ width: "100%", py: 4, backgroundColor: "#ffffff" }}>
@@ -38,6 +29,7 @@ const Benefit = () => {
             pb: 3,
             position: "relative",
             top: -93,
+            boxShadow: "3",
           }}
         >
           <Grid
