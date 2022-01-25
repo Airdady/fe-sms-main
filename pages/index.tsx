@@ -76,10 +76,10 @@ const Verification: NextPage = () => {
       <Coverage />
       <Promo />
       {/* <Pricing />
-      <CodeSection />
-      <Industry />
+      <CodeSection /> */}
+      {/* <Industry /> */}
       <Contact />
-      <Footer /> */}
+      <Footer />
     </Box>
   );
 };
