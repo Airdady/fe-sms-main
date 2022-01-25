@@ -18,6 +18,7 @@ import Footer from "../components/Footer";
 import Contact from "./Home/Contact";
 import Documentation from "./Home/Documentation";
 import Coverage from "./Home/Coverage";
+import Promo from "./Home/Promo";
 
 const Verification: NextPage = () => {
   return (
@@ -73,6 +74,7 @@ const Verification: NextPage = () => {
       <Benefit />
       <Documentation />
       <Coverage />
+      <Promo />
       {/* <Pricing />
       <CodeSection />
       <Industry />
