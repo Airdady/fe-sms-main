@@ -17,6 +17,7 @@ import GetStarted from "../components/GetStarted";
 import Footer from "../components/Footer";
 import Contact from "./Home/Contact";
 import Documentation from "./Home/Documentation";
+import Coverage from "./Home/Coverage";
 
 const Verification: NextPage = () => {
   return (
@@ -71,6 +72,7 @@ const Verification: NextPage = () => {
       </Box>
       <Benefit />
       <Documentation />
+      <Coverage />
       {/* <Pricing />
       <CodeSection />
       <Industry />
