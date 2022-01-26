@@ -10,10 +10,6 @@ import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Benefit from "./Home/Benefit";
-import Pricing from "./Home/Pricing";
-import CodeSection from "./Home/CodeSection";
-import Industry from "./Home/Industry";
-import GetStarted from "../components/GetStarted";
 import Footer from "../components/Footer";
 import Contact from "./Home/Contact";
 import Documentation from "./Home/Documentation";
@@ -75,9 +71,7 @@ const Verification: NextPage = () => {
       <Documentation />
       <Coverage />
       <Promo />
-      {/* <Pricing />
-      <CodeSection /> */}
-      {/* <Industry /> */}
+
       <Contact />
       <Footer />
     </Box>
