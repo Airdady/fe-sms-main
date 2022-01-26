@@ -15,7 +15,10 @@ import Head from "next/head";
 import Dropdown from "./Dropdown";
 import Link from "next/link";
 
-const pages = ["Developers", "Pricing", "Company"];
+const pages = [
+  { name: "Developers", to: "/developers", id: 1 },
+  { name: "Pricing", to: "/pricing", id: 2 },
+];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 export default function ButtonAppBar() {
@@ -61,26 +64,30 @@ export default function ButtonAppBar() {
       <AppBar sx={{ bgcolor: "#41AACB" }} position="static">
         <Container maxWidth="lg">
           <Toolbar>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              AirDady
-            </Typography>
+            <Link href="/">
+              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                AirDady
+              </Typography>
+            </Link>
             <Box display="flex">
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
                 <Dropdown />
                 {pages.map((page) => (
-                  <Button
-                    key={page}
-                    sx={{
-                      m: 2,
-                      color: "white",
-                      textTransform: "capitalize",
-                      display: "block",
-                      fontFamily: "poppins",
-                      fontWeight: 300,
-                    }}
-                  >
-                    {page}
-                  </Button>
+                  <Link href={page.to}>
+                    <Button
+                      key={page.id}
+                      sx={{
+                        m: 2,
+                        color: "white",
+                        textTransform: "capitalize",
+                        display: "block",
+                        fontFamily: "poppins",
+                        fontWeight: 300,
+                      }}
+                    >
+                      {page.name}
+                    </Button>
+                  </Link>
                 ))}
               </Box>
               <Link href="/login">
