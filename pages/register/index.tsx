@@ -12,10 +12,33 @@ import { UserOutlined, LockOutlined } from "@ant-design/icons";
 import Footer from "../../components/Footer";
 import "antd/dist/antd.css";
 import styles from "./login.module.css";
+import { useState } from "react";
+import {useRouter} from "next/router";
 
 const Login: NextPage = () => {
-  const onFinish = (values: any) => {
+
+  const router = useRouter();
+
+  const onFinish = async (values: any) => {
+    let username = values.username;
+    let company = values.company;
+    let email = values.email;
+    let password = values.password;
+    
     console.log("Received values of form: ", values);
+
+        await fetch('https://api.sms.airdady.com/auth', {
+            method: "POST",
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+                username,
+                company,
+                email,
+                password
+            })
+        });
+        
+        await router.push('/login');
   };
 
   return (
@@ -42,6 +65,35 @@ const Login: NextPage = () => {
             initialValues={{ remember: true }}
             onFinish={onFinish}
           >
+
+            <Form.Item
+              name="username"
+              rules={[
+                { required: true, message: "Please input username!" },
+              ]}
+            >
+              <Input
+                size="large"
+                prefix={<UserOutlined className="site-form-item-icon" />}
+                placeholder="Username"
+               
+              />
+            </Form.Item>
+
+            <Form.Item
+              name="company"
+              rules={[
+                { required: true, message: "Please input company!" },
+              ]}
+            >
+              <Input
+                size="large"
+                prefix={<UserOutlined className="site-form-item-icon" />}
+                placeholder="Company"
+                
+              />
+            </Form.Item>
+
             <Form.Item
               name="email"
               rules={[
@@ -52,8 +104,10 @@ const Login: NextPage = () => {
                 size="large"
                 prefix={<UserOutlined className="site-form-item-icon" />}
                 placeholder="Email"
+               
               />
             </Form.Item>
+
             <Form.Item
               name="password"
               rules={[
@@ -65,6 +119,7 @@ const Login: NextPage = () => {
                 prefix={<LockOutlined className="site-form-item-icon" />}
                 type="password"
                 placeholder="Password"
+                
               />
             </Form.Item>
 

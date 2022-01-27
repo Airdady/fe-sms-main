@@ -12,10 +12,31 @@ import { UserOutlined, LockOutlined } from "@ant-design/icons";
 import Footer from "../../components/Footer";
 import "antd/dist/antd.css";
 import styles from "./login.module.css";
+import Link from "next/link";
+import {useRouter} from "next/router";
 
 const Login: NextPage = () => {
-  const onFinish = (values: any) => {
+
+  const router = useRouter();
+
+  const onFinish = async(values: any) => {
     console.log("Received values of form: ", values);
+
+    let email = values.email;
+    let password = values.password;
+
+    await fetch('https://api.sms.airdady.com/auth/login', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            credentials: 'include',
+            body: JSON.stringify({
+                email,
+                password
+            })
+        });
+
+        await router.push('/');
+
   };
 
   return (
@@ -43,7 +64,7 @@ const Login: NextPage = () => {
             onFinish={onFinish}
           >
             <Form.Item
-              name="username"
+              name="email"
               rules={[
                 { required: true, message: "Please input your Username!" },
               ]}
@@ -51,7 +72,7 @@ const Login: NextPage = () => {
               <Input
                 size="large"
                 prefix={<UserOutlined className="site-form-item-icon" />}
-                placeholder="Username"
+                placeholder="email"
               />
             </Form.Item>
             <Form.Item
@@ -85,7 +106,10 @@ const Login: NextPage = () => {
               >
                 Log in
               </Button>
-              Or <a href="">register now!</a>
+              <Link href="/register">
+              register now!
+              </Link>
+              
             </Form.Item>
           </Form>
         </Box>
