@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import GoogleMapReact from "google-map-react";
 import { Box } from "@mui/material";
 
-const MapComponent = ({ text }) => <div>{text}</div>;
+const MapComponent = ({lat, lng, text }: {lat:number, lng:number, text:any}) => <div>{text}</div>;
 
-class SimpleMap extends Component {
+class SimpleMap extends Component <{}, any>{
   static defaultProps = {
     center: {
       lat: 59.95,
@@ -22,8 +22,8 @@ class SimpleMap extends Component {
             bootstrapURLKeys={{
               key: "AIzaSyAqqsAsLrZYiR_CfQb6GUpCZsKXqQlB3t4",
             }}
-            defaultCenter={this.props.center}
-            defaultZoom={this.props.zoom}
+            defaultCenter={SimpleMap.defaultProps.center}
+            defaultZoom={SimpleMap.defaultProps.zoom}
           >
             <MapComponent lat={-81.3498212} lng={34.1659795} text="My Marker" />
           </GoogleMapReact>

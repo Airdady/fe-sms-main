@@ -73,7 +73,7 @@ export default function ButtonAppBar() {
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
                 <Dropdown />
                 {pages.map((page) => (
-                  <Link href={page.to}>
+                  <Link key={1} href={page.to}>
                     <Button
                       key={page.id}
                       sx={{

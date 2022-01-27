@@ -9,7 +9,8 @@ export default function CodeSection() {
       <Box py={4}>
         <Grid container spacing={2}>
           <Grid item md={6}>
-            <Highlight language="javascript">
+            {/* <Highlight language="javascript"> */}
+            <Highlight className="javascript">
               {`[
   {
     "title": "apples",

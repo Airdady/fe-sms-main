@@ -76,7 +76,8 @@ export default function CodeSection() {
                 </Tabs>
               </Box>
 
-              <Highlight language="javascript">
+              {/* <Highlight language="javascript"> */}
+               <Highlight className="javascript">
                 {`[
   {
     "title": "apples",
