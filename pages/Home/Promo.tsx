@@ -12,7 +12,7 @@ import Button from "@mui/material/Button";
 
 const Promo: NextPage = () => {
   return (
-    <Box>
+    <Box sx={{ pb: 7 }}>
       <Box
         sx={{
           bgcolor: "#ffffff",

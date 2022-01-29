@@ -14,6 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Head from "next/head";
 import Dropdown from "./Dropdown";
 import Link from "next/link";
+import Image from "next/image";
 
 const pages = [
   { name: "Developers", to: "/developers", id: 1 },
@@ -68,6 +69,12 @@ export default function ButtonAppBar() {
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                 AirDady
               </Typography>
+              {/* <Image
+                src="/logo.svg"
+                alt="sms illustration"
+                width={270}
+                height={30}
+              /> */}
             </Link>
             <Box display="flex">
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>

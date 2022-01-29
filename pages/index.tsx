@@ -20,22 +20,24 @@ const Verification: NextPage = () => {
   return (
     <Box>
       <ResponsiveAppBar />
-      <Box sx={{ bgcolor: "#41AACB", width: "100%", height: "100vh" }}>
+      <Box sx={{ bgcolor: "#41AACB", width: "100%", height: "109vh" }}>
         <Container
-          style={{
-            backgroundRepeat: "no-repeat",
-            backgroundImage: `url(/map-illustration.svg)`,
-            backgroundPosition: "right",
-          }}
+          style={
+            {
+              // backgroundRepeat: "no-repeat",
+              // backgroundImage: `url(/map-illustration.svg)`,
+              // backgroundPosition: "right",
+            }
+          }
           maxWidth="lg"
         >
           <Grid container spacing={2} p={3}>
-            <Grid item xs={5}>
+            <Grid item xs={12} md={6}>
               <Box mt={7} display="flex" justifyContent="center">
                 <Box mt="auto">
                   <Typography
                     style={{
-                      fontSize: 70,
+                      fontSize: 67,
                       fontWeight: "bolder",
                       textShadow: "0px 2px 3px rgba(255,255,255,0.5)",
                     }}
@@ -45,7 +47,11 @@ const Verification: NextPage = () => {
                   >
                     Cloud Messaging Provider
                   </Typography>
-                  <Typography variant="h6" gutterBottom>
+                  <Typography
+                    variant="h6"
+                    sx={{ fontWeight: "500" }}
+                    gutterBottom
+                  >
                     Help global users to carry out security verification through
                     the fastest way, retain every customer, let customers feel
                     the enterprises efficient service, promote the business
@@ -54,13 +60,14 @@ const Verification: NextPage = () => {
                 </Box>
               </Box>
             </Grid>
-            <Grid item xs={7}>
+            <Grid item xs={12} md={6}>
               <Box display="flex" alignItems="center" justifyContent="center">
                 <Image
                   src="/home-banner.svg"
                   alt="verification illustration"
-                  width={400}
-                  height={400}
+                  width={470}
+                  height={570}
+                  objectFit="contain"
                 />
               </Box>
             </Grid>
