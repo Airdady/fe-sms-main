@@ -96,11 +96,11 @@ const Verification: NextPage = () => {
         </Container>
       </Box>
       <Benefit />
-      <Pricing/>
+      <Pricing />
       {/* <CodeSection/> */}
-      <Industry/>
-      <Contact/>
-      <Footer/>
+      <Industry />
+      <Contact />
+      <Footer />
     </Box>
   );
 };
