@@ -1,20 +1,8 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Image from "next/image";
-
-import {
-  Container,
-  Typography,
-  CardMedia,
-  Button,
-  CardContent,
-  CardActions,
-  Card,
-  IconButton,
-} from "@mui/material";
+import { Container, Typography, CardContent, Card } from "@mui/material";
 
 const Benefit = () => {
   return (
@@ -29,7 +17,7 @@ const Benefit = () => {
             pb: 3,
             position: "relative",
             top: -93,
-            boxShadow: "3",
+            boxShadow: "1",
           }}
         >
           <Grid
@@ -45,7 +33,7 @@ const Benefit = () => {
                   maxHeight: 240,
                   minHeight: 240,
                   border: 1,
-                  borderColor: "#C4C4C4",
+                  borderColor: "#e6e6e6",
                   mb: 1,
                   boxShadow: "none",
                 }}
@@ -69,8 +57,8 @@ const Benefit = () => {
                     }}
                   >
                     <Typography
+                      variant="h5"
                       sx={{
-                        fontSize: 38,
                         fontWeight: "bolder",
                       }}
                     >
@@ -89,7 +77,7 @@ const Benefit = () => {
                   maxHeight: 200,
                   minHeight: 200,
                   border: 1,
-                  borderColor: "#C4C4C4",
+                  borderColor: "#e6e6e6",
                   mb: 1,
                   boxShadow: "none",
                 }}
@@ -113,8 +101,8 @@ const Benefit = () => {
                     }}
                   >
                     <Typography
+                      variant="h5"
                       sx={{
-                        fontSize: 38,
                         fontWeight: "bolder",
                       }}
                     >
@@ -135,7 +123,7 @@ const Benefit = () => {
                   maxHeight: 200,
                   minHeight: 200,
                   border: 1,
-                  borderColor: "#C4C4C4",
+                  borderColor: "#e6e6e6",
                   mb: 1,
                   boxShadow: "none",
                 }}
@@ -159,8 +147,8 @@ const Benefit = () => {
                     }}
                   >
                     <Typography
+                      variant="h5"
                       sx={{
-                        fontSize: 38,
                         fontWeight: "bolder",
                       }}
                     >
@@ -180,7 +168,7 @@ const Benefit = () => {
                   minHeight: 240,
                   maxHeight: 240,
                   border: 1,
-                  borderColor: "#C4C4C4",
+                  borderColor: "#e6e6e6",
                   mb: 1,
                   boxShadow: "none",
                 }}
@@ -204,8 +192,8 @@ const Benefit = () => {
                     }}
                   >
                     <Typography
+                      variant="h5"
                       sx={{
-                        fontSize: 38,
                         fontWeight: "bolder",
                       }}
                     >
@@ -226,7 +214,7 @@ const Benefit = () => {
                   minWidth: 275,
                   minHeight: 447,
                   border: 1,
-                  borderColor: "#C4C4C4",
+                  borderColor: "#e6e6e6",
                   mb: 1,
                   boxShadow: "none",
                 }}
@@ -250,8 +238,8 @@ const Benefit = () => {
                     }}
                   >
                     <Typography
+                      variant="h5"
                       sx={{
-                        fontSize: 38,
                         fontWeight: "bolder",
                       }}
                     >

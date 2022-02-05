@@ -5,11 +5,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <>
+    
       <Box
         sx={{
           flexGrow: 1,
-          pt: 6,
           background: "#003748",
           color: "whitesmoke",
         }}
@@ -151,6 +150,6 @@ export default function Footer() {
           </Container>
         </Paper>
       </Box>
-    </>
+  
   );
 }

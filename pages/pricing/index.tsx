@@ -1,36 +1,20 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 import PricingTable from "../../components/PricingTable";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import ResponsiveAppBar from "../../components/AppBar";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
-import {
-  Grid,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  Stack,
-} from "@mui/material";
-import Button from "@mui/material/Button";
-import { styled } from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
+import { Grid, Stack } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Footer from "../../components/Footer";
-import Item from "antd/lib/list/Item";
-import FolderIcon from "@mui/icons-material/Folder";
 import React from "react";
-import { Form, Input, Checkbox } from "antd";
-import AField from "../../components/AField";
+import GetStarted from "../../components/GetStarted";
 
 const Contact: NextPage = () => {
   return (
     <Box>
       <ResponsiveAppBar />
-
       <Box
         sx={{
           display: "flex",
@@ -55,18 +39,11 @@ const Contact: NextPage = () => {
               >
                 Pricing
               </Typography>
-            </Box>
-
-            <Box>
               <Typography
                 justifyContent="center"
                 align="center"
-                sx={{
-                  fontSize: 16,
-                  fontFamily: "poppins",
-                  fontWeight: 400,
-                  mt: "auto",
-                }}
+                variant="h6"
+                sx={{ fontFamily: "poppins", fontWeight: "400", mt: "auto" }}
               >
                 Start with our competitive pay-as-you-go pricing. For deeper
                 discounts on committed spend as you scale, talk with our sales
@@ -141,101 +118,8 @@ const Contact: NextPage = () => {
             </Typography>
             <PricingTable />
           </Box>
-
-          <Box>
-            <Card sx={{ mt: 3 }}>
-              <CardContent>
-                <Box
-                  sx={{
-                    display: "flex",
-                    width: "100%",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  <Stack
-                    spacing={3}
-                    direction={{ xs: "column", sm: "column", md: "column" }}
-                  >
-                    <Box>
-                      <Typography
-                        justifyContent="center"
-                        align="center"
-                        variant="h5"
-                        sx={{
-                          fontFamily: "poppins",
-                          fontWeight: 400,
-                          mt: "auto",
-                        }}
-                      >
-                        Ready to get started
-                      </Typography>
-                    </Box>
-
-                    <Box>
-                      <Typography
-                        justifyContent="center"
-                        align="center"
-                        sx={{
-                          fontSize: 19,
-                          fontFamily: "poppins",
-                          fontWeight: 400,
-                          mt: "auto",
-                        }}
-                      >
-                        Incase of any question feel free to reachout to our
-                        experts or satisfied with our services feel free to get
-                        your api keys today and start your free trial
-                      </Typography>
-                    </Box>
-                  </Stack>
-                </Box>
-
-                <Stack
-                  direction="row"
-                  spacing={7}
-                  sx={{
-                    mt: 7,
-                    display: "flex",
-                    width: "100%",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  <Button
-                    sx={{
-                      textTransform: "capitalize",
-                      display: "block",
-                      fontFamily: "poppins",
-                      fontWeight: 400,
-                      backgroundColor: "white",
-                      color: "#008BB7",
-                      px: 3,
-                      border: 1,
-                      borderColor: "#008BB7",
-                    }}
-                  >
-                    CONTACT EXPERTS
-                  </Button>
-
-                  <Button
-                    sx={{
-                      textTransform: "capitalize",
-                      display: "block",
-                      fontFamily: "poppins",
-                      fontWeight: 400,
-                      backgroundColor: "#008BB7",
-                      color: "#ffffff",
-                      px: 3,
-                    }}
-                  >
-                    GET VERIFICATION API KEYS
-                  </Button>
-                </Stack>
-              </CardContent>
-            </Card>
-          </Box>
         </Box>
+        <GetStarted />
       </Container>
       <Footer />
     </Box>

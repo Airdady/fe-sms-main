@@ -1,19 +1,16 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
+
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
+
 import Box from "@mui/material/Box";
 import Image from "next/image";
 
 import {
   Container,
   Typography,
-  CardMedia,
   Button,
   CardContent,
-  CardActions,
   Card,
-  IconButton,
 } from "@mui/material";
 
 const Documentation = () => {
@@ -64,9 +61,9 @@ const Documentation = () => {
                       }}
                     >
                       <Typography
+                        variant="h4"
                         sx={{
-                          fontSize: 38,
-                          fontWeight: "400",
+                          fontWeight: "bolder",
                         }}
                       >
                         Carefully documented API
@@ -105,6 +102,7 @@ const Documentation = () => {
               <Box
                 sx={{
                   borderRight: 1,
+                  borderColor: "#bfbfbf",
                   height: 330,
                   ["@media screen and (max-width: 992px)"]: {
                     display: "none",
@@ -123,7 +121,7 @@ const Documentation = () => {
                       display: "none",
                     },
                     position: "relative",
-                    left: 15,
+                    left: 16,
                     top: 153,
                   }}
                 >

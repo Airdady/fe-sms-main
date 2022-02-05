@@ -1,14 +1,8 @@
 import type { NextPage } from "next";
-import Image from "next/image";
-import styles from "../../styles/Home.module.css";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-
 import { Grid, Stack } from "@mui/material";
-import { styled } from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 
 const Promo: NextPage = () => {
   return (
@@ -30,12 +24,11 @@ const Promo: NextPage = () => {
                 <Box mt="auto">
                   <Typography
                     sx={{
-                      fontSize: 27,
                       fontWeight: "bolder",
                       mt: 3,
                       color: "#000000",
                     }}
-                    variant="h2"
+                    variant="h4"
                     component="div"
                     display="flex"
                     justifyContent="center"
@@ -60,12 +53,11 @@ const Promo: NextPage = () => {
                     <Stack spacing={-1.3}>
                       <Typography
                         sx={{
-                          fontSize: 27,
                           fontWeight: "bolder",
                           mb: 1.7,
                           color: "#000000",
                         }}
-                        variant="h2"
+                        variant="h4"
                         component="div"
                       >
                         Pleasant Api Features
@@ -85,12 +77,11 @@ const Promo: NextPage = () => {
                     <Stack spacing={-1.3}>
                       <Typography
                         sx={{
-                          fontSize: 27,
                           fontWeight: "bolder",
                           mb: 1.7,
                           color: "#000000",
                         }}
-                        variant="h2"
+                        variant="h4"
                         component="div"
                       >
                         Pay-as-you-go Pricing
@@ -112,12 +103,11 @@ const Promo: NextPage = () => {
                   <Stack spacing={-1.3}>
                     <Typography
                       sx={{
-                        fontSize: 27,
                         fontWeight: "bolder",
                         mb: 1.7,
                         color: "#000000",
                       }}
-                      variant="h2"
+                      variant="h4"
                       component="div"
                       display="flex"
                       justifyContent="center"

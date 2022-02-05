@@ -1,12 +1,7 @@
 import type { NextPage } from "next";
-import Image from "next/image";
-import styles from "../../styles/Home.module.css";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-
 import { Grid, Stack } from "@mui/material";
-import { styled } from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
@@ -30,7 +25,6 @@ const Coverage: NextPage = () => {
                 <Box mt="auto">
                   <Typography
                     style={{
-                      fontSize: 70,
                       fontWeight: "bolder",
 
                       color: "#ffffff",
@@ -54,9 +48,7 @@ const Coverage: NextPage = () => {
                     <Stack spacing={-1.3}>
                       <Typography
                         style={{
-                          fontSize: 60,
                           fontWeight: "bolder",
-
                           color: "#ffffff",
                         }}
                         variant="h2"
@@ -66,10 +58,9 @@ const Coverage: NextPage = () => {
                       </Typography>
 
                       <Typography
+                        variant="h6"
                         style={{
-                          fontSize: 20,
                           fontWeight: "200",
-
                           color: "#ffffff",
                         }}
                       >
@@ -80,7 +71,6 @@ const Coverage: NextPage = () => {
                     <Stack spacing={-1.3}>
                       <Typography
                         style={{
-                          fontSize: 60,
                           fontWeight: "bolder",
 
                           color: "#ffffff",
@@ -92,8 +82,8 @@ const Coverage: NextPage = () => {
                       </Typography>
 
                       <Typography
+                        variant="h6"
                         style={{
-                          fontSize: 20,
                           fontWeight: "200",
 
                           color: "#ffffff",

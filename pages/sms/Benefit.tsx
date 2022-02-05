@@ -1,9 +1,8 @@
 import * as React from "react";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Image from "next/image";
-import { Container, Typography, Stack, Card, CardContent } from "@mui/material";
+import { Typography, Stack, Card, CardContent } from "@mui/material";
 
 const Benefit = () => {
   return (

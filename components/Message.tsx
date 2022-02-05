@@ -1,18 +1,13 @@
-import type { NextPage } from "next";
-import Image from "next/image";
 import Head from "next/head";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import PlainAppBar from "./PlainAppBar";
 import AppBar from "@mui/material/AppBar";
 import Typography from "@mui/material/Typography";
-import { Form, Input, Button, Checkbox } from "antd";
-import { UserOutlined, LockOutlined } from "@ant-design/icons";
+import { Button } from "antd";
 import "antd/dist/antd.css";
 import styles from "./components.module.css";
 import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 import Toolbar from "@mui/material/Toolbar";
-
 
 interface MsgProps{
   mainText?:string;

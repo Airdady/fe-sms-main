@@ -1,43 +1,30 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import styles from "../../styles/Home.module.css";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import ResponsiveAppBar from "../components/AppBar";
 import { Grid } from "@mui/material";
-import { styled } from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import Benefit from "./Home/Benefit";
 import Footer from "../components/Footer";
 import Contact from "./Home/Contact";
 import Documentation from "./Home/Documentation";
 import Coverage from "./Home/Coverage";
 import Promo from "./Home/Promo";
+import AccordionComp from "./Home/AccordionComp";
 
 const Verification: NextPage = () => {
   return (
     <Box>
       <ResponsiveAppBar />
       <Box sx={{ bgcolor: "#41AACB", width: "100%", height: "109vh" }}>
-        <Container
-          style={
-            {
-              // backgroundRepeat: "no-repeat",
-              // backgroundImage: `url(/map-illustration.svg)`,
-              // backgroundPosition: "right",
-            }
-          }
-          maxWidth="lg"
-        >
+        <Container maxWidth="lg">
           <Grid container spacing={2} p={3}>
             <Grid item xs={12} md={6}>
               <Box mt={7} display="flex" justifyContent="center">
                 <Box mt="auto">
                   <Typography
                     style={{
-                      fontSize: 67,
                       fontWeight: "bolder",
                       textShadow: "0px 2px 3px rgba(255,255,255,0.5)",
                     }}
@@ -66,7 +53,7 @@ const Verification: NextPage = () => {
                   src="/home-banner.svg"
                   alt="verification illustration"
                   width={470}
-                  height={570}
+                  height={430}
                   objectFit="contain"
                 />
               </Box>
@@ -78,8 +65,8 @@ const Verification: NextPage = () => {
       <Documentation />
       <Coverage />
       <Promo />
-
       <Contact />
+      <AccordionComp />
       <Footer />
     </Box>
   );

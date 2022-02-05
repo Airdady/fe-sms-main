@@ -1,19 +1,13 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import ResponsiveAppBar from "../../components/AppBar";
-import { Grid } from "@mui/material";
-import { styled } from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import { Form, Input, Button, Checkbox } from "antd";
 import { UserOutlined, LockOutlined } from "@ant-design/icons";
-import Footer from "../../components/Footer";
 import "antd/dist/antd.css";
 import styles from "./login.module.css";
-import { useState } from "react";
 import {useRouter} from "next/router";
+import PlainAppBar from "../../components/PlainAppBar";
 
 const Login: NextPage = () => {
 
@@ -43,6 +37,7 @@ const Login: NextPage = () => {
 
   return (
     <Container fixed>
+      <PlainAppBar />
       <Box
         sx={{
           height: "100vh",

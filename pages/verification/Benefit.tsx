@@ -8,12 +8,8 @@ import Image from "next/image";
 import {
   Container,
   Typography,
-  CardMedia,
-  Button,
   CardContent,
-  CardActions,
   Card,
-  IconButton,
 } from "@mui/material";
 // import Card from "../../components/Card";
 
@@ -78,7 +74,7 @@ const Benefit = () => {
           </Grid>
           <Grid item xs={12} sm={12} md={4}>
             <Card
-              sx={{ minWidth: 275, pt: 6.3, position: "relative", top: -17.3 }}
+              sx={{ minWidth: 275, pt: 6.3, position: "relative", top: -17.3 ,boxShadow: 0}}
             >
               <CardContent>
                 <Image

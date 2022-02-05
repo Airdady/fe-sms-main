@@ -1,17 +1,13 @@
 import type { NextPage } from "next";
-import Image from "next/image";
-import styles from "../../styles/Home.module.css";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import ResponsiveAppBar from "../../components/AppBar";
-import { Grid, List, ListItem } from "@mui/material";
-import { styled } from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
+import { List, ListItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
+
 import Footer from "../../components/Footer";
 
-const TermsOfService: NextPage = () => {
+const PrivacyPolicy: NextPage = () => {
   return (
     <Box>
       <ResponsiveAppBar />
@@ -32,7 +28,7 @@ const TermsOfService: NextPage = () => {
           Privacy Policy
         </Typography>
       </Box>
-      <Box sx={{ height: "1170vh" }}>
+      <Box sx={{ height: "auto" }}>
         <Container>
           <List>
             <ListItem>
@@ -1167,4 +1163,4 @@ const TermsOfService: NextPage = () => {
   );
 };
 
-export default TermsOfService;
+export default PrivacyPolicy;

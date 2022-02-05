@@ -8,7 +8,7 @@ export default function CodeSection() {
     <Container maxWidth="lg">
       <Box py={4}>
         <Grid container spacing={2}>
-          <Grid item md={6}>
+          <Grid item md={6} xs={12}> 
             {/* <Highlight language="javascript"> */}
             <Highlight className="javascript">
               {`[

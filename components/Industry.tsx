@@ -28,7 +28,7 @@ const Industry = () => {
           sx={{ mt: 4 }}
           columnSpacing={{ xs: 1, sm: 2, md: 3 }}
         >
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <Box display="flex" alignItems="center" justifyContent="center">
               <Image
                 src="/industries.svg"
@@ -38,7 +38,7 @@ const Industry = () => {
               />
             </Box>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <Item>
               <Box p={3}>
                 <Typography variant="h6" gutterBottom>
