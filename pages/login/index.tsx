@@ -7,31 +7,32 @@ import { UserOutlined, LockOutlined } from "@ant-design/icons";
 import "antd/dist/antd.css";
 import styles from "./login.module.css";
 import Link from "next/link";
-import {useRouter} from "next/router";
+import { useRouter } from "next/router";
 import PlainAppBar from "../../components/PlainAppBar";
 
 const Login: NextPage = () => {
-
   const router = useRouter();
 
-  const onFinish = async(values: any) => {
+  const onFinish = async (values: any) => {
     console.log("Received values of form: ", values);
 
     let email = values.email;
     let password = values.password;
 
-    await fetch('https://api.sms.airdady.com/auth/login', {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            credentials: 'include',
-            body: JSON.stringify({
-                email,
-                password
-            })
-        });
+    await fetch("https://api.sms.airdady.com/auth/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email,
+        password,
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => console.log(data));
 
-        await router.push('/');
-
+    // .then(response => response.json())
+    // .then(data => console.log(data));
+    await router.push("/");
   };
 
   return (
@@ -88,10 +89,11 @@ const Login: NextPage = () => {
               <Form.Item name="remember" valuePropName="checked" noStyle>
                 <Checkbox>Remember me</Checkbox>
               </Form.Item>
-
-              <a className="login-form-forgot" href="">
-                Forgot password
-              </a>
+              <Link href="/password_reset">
+                <a className="login-form-forgot" href="">
+                  Forgot password
+                </a>
+              </Link>
             </Form.Item>
 
             <Form.Item>
@@ -102,10 +104,7 @@ const Login: NextPage = () => {
               >
                 Log in
               </Button>
-              <Link href="/register">
-              register now!
-              </Link>
-              
+              <Link href="/register">register now!</Link>
             </Form.Item>
           </Form>
         </Box>

@@ -12,6 +12,7 @@ import CodeSection from "../../components/CodeSection";
 import Industry from "../../components/Industry";
 import GetStarted from "../../components/GetStarted";
 import Footer from "../../components/Footer";
+import Link from "next/link";
 
 const Verification: NextPage = () => {
   return (
@@ -42,36 +43,41 @@ const Verification: NextPage = () => {
                     development of the enterprise.
                   </Typography>
                   <Box display="flex" mt={3}>
-                    <Button
-                      sx={{
-                        textTransform: "capitalize",
-                        display: "block",
-                        fontFamily: "poppins",
-                        fontWeight: 400,
-                        backgroundColor: "white",
-                        color: "black",
-                        px: 3,
-                      }}
-                    >
-                      Free Trial
-                    </Button>
-                    <Button
-                      sx={{
-                        ml: 2,
-                        textTransform: "capitalize",
-                        display: "block",
-                        fontFamily: "poppins",
-                        fontWeight: 400,
-                        backgroundColor: "#008BB7",
-                        color: "white",
-                        px: 3,
-                        py: 1,
-                      }}
-                      color="inherit"
-                      size="small"
-                    >
-                      talk to experts
-                    </Button>
+                    <Link href="/register">
+                      <Button
+                        sx={{
+                          textTransform: "capitalize",
+                          display: "block",
+                          fontFamily: "poppins",
+                          fontWeight: 400,
+                          backgroundColor: "white",
+                          color: "black",
+                          px: 3,
+                        }}
+                      >
+                        Free Trial
+                      </Button>
+                    </Link>
+
+                    <Link href="/contact">
+                      <Button
+                        sx={{
+                          ml: 2,
+                          textTransform: "capitalize",
+                          display: "block",
+                          fontFamily: "poppins",
+                          fontWeight: 400,
+                          backgroundColor: "#008BB7",
+                          color: "white",
+                          px: 3,
+                          py: 1,
+                        }}
+                        color="inherit"
+                        size="small"
+                      >
+                        talk to experts
+                      </Button>
+                    </Link>
                   </Box>
                 </Box>
               </Box>

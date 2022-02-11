@@ -7,10 +7,14 @@ import { Form, Input, Button } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 import "antd/dist/antd.css";
 import styles from "./login.module.css";
+import { useRouter } from "next/router";
 
-const Login: NextPage = () => {
-  const onFinish = (values: any) => {
+const Passreset: NextPage = () => {
+  const router = useRouter();
+
+  const onFinish = async (values: any) => {
     console.log("Received values of form: ", values);
+    await router.push("/password_reset/MsgSentSuccess");
   };
 
   return (
@@ -72,4 +76,4 @@ const Login: NextPage = () => {
   );
 };
 
-export default Login;
+export default Passreset;

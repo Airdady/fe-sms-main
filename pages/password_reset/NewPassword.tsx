@@ -7,10 +7,14 @@ import { Form, Input, Button } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 import "antd/dist/antd.css";
 import styles from "./login.module.css";
+import { useRouter } from "next/router";
 
-const Login: NextPage = () => {
-  const onFinish = (values: any) => {
+const NewPass: NextPage = () => {
+  const router = useRouter();
+
+  const onFinish = async (values: any) => {
     console.log("Received values of form: ", values);
+    await router.push("/password_reset/PassChangeSuccess");
   };
 
   return (
@@ -40,15 +44,15 @@ const Login: NextPage = () => {
               onFinish={onFinish}
             >
               <Form.Item
-                name="email"
+                name="password"
                 rules={[
-                  { required: true, message: "Please input your email!" },
+                  { required: true, message: "Please input your password!" },
                 ]}
               >
                 <Input
                   size="large"
                   prefix={<UserOutlined className="site-form-item-icon" />}
-                  placeholder="Email"
+                  placeholder="Password"
                 />
               </Form.Item>
 
@@ -72,4 +76,4 @@ const Login: NextPage = () => {
   );
 };
 
-export default Login;
+export default NewPass;

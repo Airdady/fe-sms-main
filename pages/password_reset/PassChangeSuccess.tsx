@@ -23,6 +23,7 @@ const PassChangeSuccess: NextPage = () => {
           <CMessage
             mainText="New password set successfully"
             subText="Your new password has been set successfully, you can login using your new password"
+            direction="/login"
           />
         </Box>
       </Container>

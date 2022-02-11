@@ -5,16 +5,18 @@ import AppBar from "@mui/material/AppBar";
 import Typography from "@mui/material/Typography";
 import { Button } from "antd";
 import "antd/dist/antd.css";
-
 import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
 import Toolbar from "@mui/material/Toolbar";
+import styles from "./component.module.css";
+import Link from "next/link";
 
 interface MsgProps {
   mainText?: string;
   subText?: string;
+  direction?: string;
 }
 
-const Message = ({ mainText, subText }: MsgProps) => {
+const Message = ({ mainText, subText, direction }: MsgProps) => {
   const onFinish = (values: any) => {
     console.log("Received values of form: ", values);
   };
@@ -52,13 +54,19 @@ const Message = ({ mainText, subText }: MsgProps) => {
                 fontSize: 100,
                 color: "#139750",
               }}
+              className={styles["message-component-icon"]}
             />
             <Box textAlign="center" mb={3}>
               <Typography variant="h6">{mainText}</Typography>
               <Typography variant="body2">{subText}</Typography>
             </Box>
-            <Button type="primary" htmlType="submit">
-              Send
+
+            <Button
+              className={styles["message-component-button"]}
+              type="primary"
+              htmlType="submit"
+            >
+              <Link href={direction}>Login</Link>
             </Button>
           </Box>
         </Box>

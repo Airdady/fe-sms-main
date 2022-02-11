@@ -23,6 +23,7 @@ const MsgSentSuccess: NextPage = () => {
           <CMessage
             mainText="Password Reset instructions Sent"
             subText="Your password reset instructions have been sent to rswaib@gmail.com"
+            direction="/password_reset/NewPassword"
           />
         </Box>
       </Container>
