@@ -17,7 +17,7 @@ const Verification: NextPage = () => {
   return (
     <Box>
       <ResponsiveAppBar />
-      <Box sx={{ bgcolor: "#41AACB", width: "100%", height: "109vh" }}>
+      <Box sx={{ bgcolor: "#41AACB", width: "100%", height: "600px" }}>
         <Container maxWidth="lg">
           <Grid container spacing={2} p={3}>
             <Grid item xs={12} md={6}>
@@ -27,6 +27,7 @@ const Verification: NextPage = () => {
                     style={{
                       fontWeight: "bolder",
                       textShadow: "0px 2px 3px rgba(255,255,255,0.5)",
+                      fontSize: "4.75rem",
                     }}
                     variant="h2"
                     component="div"
@@ -48,7 +49,12 @@ const Verification: NextPage = () => {
               </Box>
             </Grid>
             <Grid item xs={12} md={6}>
-              <Box display="flex" alignItems="center" justifyContent="center">
+              <Box
+                display="flex"
+                alignItems="center"
+                height="100%"
+                justifyContent="center"
+              >
                 <Image
                   src="/home-banner.svg"
                   alt="verification illustration"

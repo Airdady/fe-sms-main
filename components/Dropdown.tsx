@@ -48,26 +48,25 @@ export default function Dropdown() {
 
   return (
     <>
-      
-        <Button
-          ref={anchorRef}
-          id="composition-button"
-          aria-controls={open ? "composition-menu" : undefined}
-          aria-expanded={open ? "true" : undefined}
-          aria-haspopup="true"
-          onClick={handleToggle}
-          sx={{
-            m: 2,
-            color: "white",
-            textTransform: "capitalize",
-            display: "block",
-            fontFamily: "poppins",
-            fontWeight: 300,
-          }}
-        >
-          Products
-        </Button>
-      
+      <Button
+        ref={anchorRef}
+        id="composition-button"
+        aria-controls={open ? "composition-menu" : undefined}
+        aria-expanded={open ? "true" : undefined}
+        aria-haspopup="true"
+        onClick={handleToggle}
+        sx={{
+          m: 2,
+          color: "white",
+          textTransform: "capitalize",
+          display: "block",
+          fontFamily: "poppins",
+          fontWeight: 300,
+        }}
+      >
+        Products
+      </Button>
+
       <Popper
         open={open}
         anchorEl={anchorRef.current}
@@ -92,8 +91,16 @@ export default function Dropdown() {
                   aria-labelledby="composition-button"
                   onKeyDown={handleListKeyDown}
                 >
-                  <MenuItem onClick={handleClose}><Link href="/sms"><a> SMS API</a></Link></MenuItem>
-                  <MenuItem onClick={handleClose}><Link href="/verification"><a> Verification API</a></Link></MenuItem>
+                  <MenuItem onClick={handleClose}>
+                    <Link href="/sms">
+                      <a> SMS API</a>
+                    </Link>
+                  </MenuItem>
+                  <MenuItem onClick={handleClose}>
+                    <Link href="/verification">
+                      <a> Verification API</a>
+                    </Link>
+                  </MenuItem>
                 </MenuList>
               </ClickAwayListener>
             </Paper>

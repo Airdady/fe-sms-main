@@ -23,12 +23,13 @@ const Contact: NextPage = () => {
           height: "200px",
           alignItems: "center",
           justifyContent: "center",
+          py:5
         }}
       >
         <Container>
           <Stack
             spacing={3}
-            direction={{ xs: "column", sm: "column", md: "column" }}
+            direction="column"
           >
             <Box>
               <Typography
@@ -55,7 +56,7 @@ const Contact: NextPage = () => {
       </Box>
 
       <Container>
-        <Box sx={{ mb: 7 }}>
+        <Box sx={{ my: 5 }}>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={12} md={12} sx={{ marginTop: 3 }}>
               <Card sx={{ minWidth: 275, bgcolor: "#ECECEC", boxShadow: 0 }}>
@@ -89,7 +90,7 @@ const Contact: NextPage = () => {
               </Card>
             </Grid>
           </Grid>
-          <Box sx={{ mt: 3 }}>
+          <Box sx={{ my: 5 }}>
             <Typography
               sx={{
                 fontSize: 27,
@@ -104,7 +105,7 @@ const Contact: NextPage = () => {
             <PricingTable />
           </Box>
 
-          <Box sx={{ mt: 3 }}>
+          <Box sx={{ my: 5 }}>
             <Typography
               sx={{
                 fontSize: 27,

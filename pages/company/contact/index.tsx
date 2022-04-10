@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import ResponsiveAppBar from "../../components/AppBar";
+import ResponsiveAppBar from "../../../components/AppBar";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import {
@@ -13,16 +13,15 @@ import {
 } from "@mui/material";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import Footer from "../../components/Footer";
+import Footer from "../../../components/Footer";
 import SimpleMap from "./SimpleMap";
 import React from "react";
-import AField from "../../components/AField";
+import AField from "../../../components/AField";
 
 const Contact: NextPage = () => {
   return (
     <Box>
       <ResponsiveAppBar />
-
       <Box
         sx={{
           bgcolor: "#41AACB",

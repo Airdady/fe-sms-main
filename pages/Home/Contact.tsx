@@ -9,7 +9,7 @@ import AField from "../../components/AField";
 
 export default function Contact() {
   return (
-    <Box sx={{ pt: 3, pb: 3, bgcolor: "#D3D3D3" }}>
+    <Box sx={{ py: 7, bgcolor: "#D3D3D3" }}>
       <Container
         sx={{
           backgroundRepeat: "no-repeat",

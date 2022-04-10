@@ -43,7 +43,7 @@ const Verification: NextPage = () => {
                     development of the enterprise.
                   </Typography>
                   <Box display="flex" mt={3}>
-                    <Link href="/register">
+                    <Link href="/register" passHref>
                       <Button
                         sx={{
                           textTransform: "capitalize",
@@ -59,7 +59,7 @@ const Verification: NextPage = () => {
                       </Button>
                     </Link>
 
-                    <Link href="/contact">
+                    <Link href="/contact" passHref>
                       <Button
                         sx={{
                           ml: 2,

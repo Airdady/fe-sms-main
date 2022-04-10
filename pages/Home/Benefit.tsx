@@ -6,7 +6,7 @@ import { Container, Typography, CardContent, Card } from "@mui/material";
 
 const Benefit = () => {
   return (
-    <Box sx={{ width: "100%", py: 4, backgroundColor: "#ffffff" }}>
+    <Box sx={{ width: "100%", backgroundColor: "#ffffff" }}>
       <Container maxWidth="lg">
         <Card
           sx={{
@@ -16,8 +16,7 @@ const Benefit = () => {
             pt: 1.3,
             pb: 3,
             position: "relative",
-            top: -93,
-            boxShadow: "1",
+            boxShadow: "none",
           }}
         >
           <Grid
@@ -32,8 +31,7 @@ const Benefit = () => {
                   minWidth: 275,
                   maxHeight: 240,
                   minHeight: 240,
-                  border: 1,
-                  borderColor: "#e6e6e6",
+                  border: 0,
                   mb: 1,
                   boxShadow: "none",
                 }}
@@ -76,8 +74,7 @@ const Benefit = () => {
                   minWidth: 275,
                   maxHeight: 200,
                   minHeight: 200,
-                  border: 1,
-                  borderColor: "#e6e6e6",
+                  border: 0,
                   mb: 1,
                   boxShadow: "none",
                 }}
@@ -122,8 +119,7 @@ const Benefit = () => {
                   minWidth: 275,
                   maxHeight: 200,
                   minHeight: 200,
-                  border: 1,
-                  borderColor: "#e6e6e6",
+                  border: 0,
                   mb: 1,
                   boxShadow: "none",
                 }}
@@ -167,8 +163,7 @@ const Benefit = () => {
                   minWidth: 275,
                   minHeight: 240,
                   maxHeight: 240,
-                  border: 1,
-                  borderColor: "#e6e6e6",
+                  border: 0,
                   mb: 1,
                   boxShadow: "none",
                 }}
@@ -213,8 +208,6 @@ const Benefit = () => {
                 sx={{
                   minWidth: 275,
                   minHeight: 447,
-                  border: 1,
-                  borderColor: "#e6e6e6",
                   mb: 1,
                   boxShadow: "none",
                 }}

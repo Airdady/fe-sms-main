@@ -5,7 +5,7 @@ import React from "react";
 export default function GetStarted() {
   return (
     <Container maxWidth="lg">
-      <Box textAlign="center" display="flex" flexDirection="column"  p={6}>
+      <Box textAlign="center" display="flex" flexDirection="column"  p={10}>
         <Typography variant="h4" gutterBottom>
           Ready to get started{" "}
         </Typography>

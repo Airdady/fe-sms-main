@@ -15,7 +15,7 @@ import {
 
 const Documentation = () => {
   return (
-    <Box sx={{ width: "100%", py: 1.3, backgroundColor: "#ffffff" }}>
+    <Box sx={{ width: "100%", py: 10, backgroundColor: "#f1f1f1" }}>
       <Container maxWidth="lg">
         <Card
           sx={{
@@ -24,8 +24,6 @@ const Documentation = () => {
             pr: 3,
             pt: 1.3,
             pb: 3,
-            position: "relative",
-            top: -93,
             boxShadow: "none",
           }}
         >
@@ -35,7 +33,7 @@ const Documentation = () => {
             sx={{ mt: 0 }}
             columnSpacing={{ xs: 0, sm: 0, md: 0 }}
           >
-            <Grid item xs={12} sm={12} md={5.2}>
+            <Grid item xs={12} sm={12} md={6.6}>
               <Grid item xs={12} sm={12} md={12}>
                 <Card
                   sx={{
@@ -155,7 +153,7 @@ const Documentation = () => {
               </Box>
             </Grid>
 
-            <Grid item xs={12} sm={12} md={5.2}>
+            <Grid item xs={12} sm={12} md={5}>
               <Card
                 sx={{
                   mt: 3,
@@ -173,7 +171,7 @@ const Documentation = () => {
                       <Image
                         src="/go-logo.svg"
                         alt="sms illustration"
-                        width={350}
+                        width='100%'
                         height={120}
                       />
                     </Grid>
@@ -181,42 +179,25 @@ const Documentation = () => {
                       <Image
                         src="/php-logo.svg"
                         alt="sms illustration"
-                        width={350}
+                        width='100%'
                         height={120}
                       />
                     </Grid>
-                    <Grid item xs={12} sm={12} md={4}>
+                    <Grid item xs={6} sm={6} md={4}>
                       <Image
                         src="/java-logo.svg"
                         alt="sms illustration"
-                        width={350}
+                        width='100%'
                         height={120}
                       />
                     </Grid>
                   </Grid>
-
-                  <Grid
-                    container
-                    direction="row"
-                    justifyContent="center"
-                    alignItems="center"
-                  >
-                    <Grid item xs={12} sm={12} md={4}>
-                      <Image
-                        src="/curl-logo.svg"
-                        alt="sms illustration"
-                        width={350}
-                        height={120}
-                      />
-                    </Grid>
-                  </Grid>
-
                   <Grid container direction="row">
                     <Grid item xs={12} sm={12} md={4}>
                       <Image
                         src="/python-logo.svg"
                         alt="sms illustration"
-                        width={350}
+                        width='100%'
                         height={120}
                       />
                     </Grid>
@@ -224,7 +205,7 @@ const Documentation = () => {
                       <Image
                         src="/javascript-logo.svg"
                         alt="sms illustration"
-                        width={350}
+                        width='100%'
                         height={120}
                       />
                     </Grid>
@@ -232,7 +213,7 @@ const Documentation = () => {
                       <Image
                         src="/javascript-logo1.svg"
                         alt="sms illustration"
-                        width={350}
+                        width='100%'
                         height={120}
                       />
                     </Grid>
