@@ -16,21 +16,38 @@ const About: NextPage = () => {
   return (
     <Box>
       <ResponsiveAppBar />
-      <Box sx={{ bgcolor: "#41AACB", width: "100%", height: "auto" }}>
-        <Container maxWidth="lg">
+      
+      <Box
+        sx={{
+          bgcolor: "#41AACB",
+          width: "100%",
+          height: "200px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <Typography
+          variant="h3"
+          sx={{ fontFamily: "poppins", fontWeight: 600, mt: -4.7 }}
+        >
+          AirDady Company Profile
+        </Typography>
+      </Box>
+      <Container maxWidth="lg">
           <Grid container spacing={2} p={3}>
             <Grid item xs={12} md={6}>
               <Box mt={6} display="flex" justifyContent="center">
                 <Box mt="auto">
                   <Typography
-                    variant="h3"
+                    variant="h4"
                     sx={{ fontWeight: "bold" }}
                     component="div"
                     gutterBottom
                   >
                     Our Story
                   </Typography>
-                  <Typography variant="h6" gutterBottom>
+                  <Typography variant="body2">
                     AirDady is a software development company established by
                     Rumbiiha Swaibu, a renowned Senior Developer who worked in
                     Andela and Silensec . The company was founded in 2019 in
@@ -71,25 +88,24 @@ const About: NextPage = () => {
             <Grid item xs={12} md={6}>
               <Box display="flex" alignItems="center" justifyContent="center">
                 <Image
-                 src="/mission.jpg"
+                 src="/cover.jpg"
                   alt="sms illustration"
                   width={500}
-                  height={500}
+                  height={400}
                 />
               </Box>
             </Grid>
           </Grid>
         </Container>
-      </Box>
       <Container maxWidth="lg">
         <Box py={4}>
           <Grid container spacing={2}>
             <Grid item md={6} xs={12}>
               <Box display="flex" alignItems="center" justifyContent="center">
                 <Image
-                  src="/corev.jpg"
+                  src="/core.png"
                   alt="sms illustration"
-                  width={300}
+                  width={400}
                   height={300}
                 />
               </Box>

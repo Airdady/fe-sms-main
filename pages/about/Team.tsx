@@ -21,7 +21,7 @@ const Team = () => {
   return (
     <Box sx={{ width: "100%", py: 4, backgroundColor: "rgb(231, 235, 240)" }}>
       <Container maxWidth="lg">
-        <Typography textAlign="center" variant="h6" gutterBottom>
+        <Typography textAlign="center" variant="h4" gutterBottom>
           Meet Our Team
         </Typography>
         <Grid
