@@ -19,10 +19,10 @@ export default function Footer() {
               <Typography variant="subtitle2">Contact</Typography>
               <Box sx={{ "*": { my: 1 }, my: 2 }}>
                 <Link href="/">
-                  <a>(793) 151-6230</a>
+                  <a>(+256) 758-30-7272</a>
                 </Link>
                 <Link href="/">
-                  Theodore Lowe Ap #867-859 Sit Rd. Azusa New York 39531
+                  Hoima MainStreet, Ug.
                 </Link>
               </Box>
             </Grid>
