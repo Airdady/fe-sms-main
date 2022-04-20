@@ -86,9 +86,9 @@ const Values = () => {
                     understand that this can feel uncomfortable. We agree that
                     these conditions enable us to thrive and grow together - as
                     individuals, as a team, and as a business. We have the
-                    courage to speak up and challenge each other. We do this in
-                    a proactive and respectful way. Asking questions or reaching
-                    out for help are acts of strength, not weakness.
+                    courage to speak up and challenge each other. Asking
+                    questions or reaching out for help are acts of strength, not
+                    weakness.
                   </Typography>
                 </Box>
               </Item>
