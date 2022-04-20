@@ -27,8 +27,8 @@ const Benefit = () => {
                   <Image
                     src="/sms-illustration-1.svg"
                     alt="sms illustration"
-                    width={250}
-                    height={250}
+                    width={200}
+                    height={200}
                   />
                 </Box>
               </Grid>
@@ -46,7 +46,7 @@ const Benefit = () => {
                   <Typography sx={{ fontSize: 18, fontWeight: "bolder" }}>
                     Improve customer experience and extend customer life cycle
                   </Typography>
-                  <Typography>
+                  <Typography variant="body2">
                     Send care and reminders to customers on holidays, members'
                     birthdays and other time nodes, creating experience that
                     customers value in the process of communication
@@ -74,8 +74,8 @@ const Benefit = () => {
                   <Image
                     src="/sms-illustration-2.svg"
                     alt="sms illustration"
-                    width={250}
-                    height={250}
+                    width={200}
+                    height={200}
                   />
                 </Box>
               </Grid>
@@ -93,7 +93,7 @@ const Benefit = () => {
                   <Typography sx={{ fontSize: 18, fontWeight: "bolder" }}>
                     Improve customer experience and extend customer life cycle
                   </Typography>
-                  <Typography>
+                  <Typography variant="body2">
                     Send care and reminders to customers on holidays, members'
                     birthdays and other time nodes, creating experience that
                     customers value in the process of communication
@@ -109,7 +109,7 @@ const Benefit = () => {
             <Stack
               direction={{ xs: "column", lg: "column" }}
               sx={{
-                backgroundColor: "#ffffff",
+                bgcolor: "#ffffff",
               }}
             >
               <Grid item xs={12} sm={12} md={4} lg={12}>
@@ -123,8 +123,8 @@ const Benefit = () => {
                   <Image
                     src="/sms-illustration-3.svg"
                     alt="sms illustration"
-                    width={250}
-                    height={250}
+                    width={200}
+                    height={200}
                   />
                 </Box>
               </Grid>
@@ -141,16 +141,12 @@ const Benefit = () => {
                     backgroundColor: "rgb(231, 235, 240)",
                   }}
                 >
-                  <Card sx={{ minWidth: 275, position: "relative", top: -53 }}>
-                    <CardContent>
-                      <Typography variant="h5" component="div">
-                        Timely notification of marketing activities to increase
-                        customer conversion
-                      </Typography>
-                    </CardContent>
-                  </Card>
+                  <Typography sx={{ fontSize: 18, fontWeight: "bolder" }}>
+                    Timely notification of marketing activities to increase
+                    customer conversion
+                  </Typography>
 
-                  <Typography>
+                  <Typography variant="body2">
                     Send care and reminders to customers on holidays, members'
                     birthdays and other time nodes, creating experience that
                     customers value in the process of communication

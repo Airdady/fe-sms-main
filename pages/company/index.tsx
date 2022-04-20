@@ -1,11 +1,8 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import ResponsiveAppBar from "../../components/AppBar";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import { Grid, List, ListItem, ListItemIcon, Paper } from "@mui/material";
+import { Grid } from "@mui/material";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Footer from "../../components/Footer";
@@ -14,6 +11,7 @@ import AField from "../../components/AField";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import JobList from "../../components/JobList";
+import Contact from "../../components/contact";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -48,7 +46,7 @@ function a11yProps(index: number) {
   };
 }
 
-const Contact: NextPage = () => {
+const Company: NextPage = () => {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -67,11 +65,8 @@ const Contact: NextPage = () => {
           justifyContent: "center",
         }}
       >
-        <Typography
-          variant="h3"
-          sx={{ fontFamily: "poppins", fontWeight: 650, mt: -4.7 }}
-        >
-          Contact Us
+        <Typography variant="h3" sx={{ fontWeight: 600 }}>
+          Our Company
         </Typography>
       </Box>
       <Container>
@@ -82,15 +77,69 @@ const Contact: NextPage = () => {
               onChange={handleChange}
               aria-label="basic tabs example"
             >
-              <Tab label="OUR TEAM" {...a11yProps(0)} />
-              <Tab label="careers" {...a11yProps(1)} />
-              <Tab label="Item Three" {...a11yProps(2)} />
+              <Tab label="Company Profile" {...a11yProps(0)} />
+              <Tab label="Careers" {...a11yProps(1)} />
+              <Tab label="OUR TEAM" {...a11yProps(2)} />
+              <Tab label="Contact Us" {...a11yProps(3)} />
             </Tabs>
           </Box>
           <TabPanel value={value} index={0}>
             <div>ABOUT</div>
-            <div>WHERE WE COME FROM</div>
+            <div>Mission</div>
             <div>OUR Values</div>
+            <Box sx={{ width: "100%" }}>
+              <Grid
+                container
+                rowSpacing={1}
+                columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+              >
+                <Grid item xs={6}>
+                  <Box p={4}>
+                    <Typography textAlign="center" variant="h6">
+                      Distinct
+                    </Typography>
+                    <Typography textAlign="center" variant="body2">
+                      We review applications to screen for a variety of
+                      criteria.
+                    </Typography>
+                  </Box>
+                </Grid>
+                <Grid item xs={6}>
+                  <Box p={4}>
+                    <Typography textAlign="center" variant="h6">
+                      Integrity
+                    </Typography>
+                    <Typography textAlign="center" variant="body2">
+                      A quick chat with one of our tech recruiters to get to
+                      know you a little better.
+                    </Typography>
+                  </Box>
+                </Grid>
+                <Grid item xs={6}>
+                  <Box p={4}>
+                    <Typography textAlign="center" variant="h6">
+                      Passion
+                    </Typography>
+                    <Typography textAlign="center" variant="body2">
+                      An interview with Airdady engineers, learning more about
+                      your technical and team experiencies
+                    </Typography>
+                  </Box>
+                </Grid>
+                <Grid item xs={6}>
+                  <Box p={4}>
+                    <Typography textAlign="center" variant="h6">
+                      Team work
+                    </Typography>
+                    <Typography textAlign="center" variant="body2">
+                      We make an offer to the candidate we feel is the best fit
+                      for the role.
+                    </Typography>
+                  </Box>
+                </Grid>
+              </Grid>
+            </Box>
+
             <div>Career</div>
             <div>Interview process</div>
             <div>OUR TEAM</div>
@@ -164,7 +213,7 @@ const Contact: NextPage = () => {
             </Box>
           </TabPanel>
           <TabPanel value={value} index={2}>
-            Item Three
+            <Contact/>
           </TabPanel>
         </Box>
       </Container>
@@ -173,4 +222,4 @@ const Contact: NextPage = () => {
   );
 };
 
-export default Contact;
+export default Company;

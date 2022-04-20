@@ -7,18 +7,17 @@ import Button from "@mui/material/Button";
 
 const Coverage: NextPage = () => {
   return (
-    <Box sx={{ mb: 7 }}>
-      <Box
-        sx={{
-          bgcolor: "#41AACB",
-          width: "100%",
-          height: "83vh",
-          backgroundRepeat: "no-repeat",
-          backgroundImage: `url(/map-illustration-dark.svg)`,
-          backgroundPosition: "right",
-        }}
-      >
-        <Container maxWidth="lg">
+    <Box bgcolor="#008bb7" sx={{ mb: 7 }}>
+      <Container maxWidth="lg">
+        <Box
+          sx={{
+            width: "100%",
+            height: "470px",
+            backgroundRepeat: "no-repeat",
+            backgroundImage: `url(/map-illustration-dark.svg)`,
+            backgroundPosition: "right",
+          }}
+        >
           <Grid container spacing={2} pl={3} pr={3} pb={3} pt={0}>
             <Grid item xs={12} md={5}>
               <Box mt={3} display="flex" justifyContent="center">
@@ -26,7 +25,6 @@ const Coverage: NextPage = () => {
                   <Typography
                     style={{
                       fontWeight: "bolder",
-
                       color: "#ffffff",
                     }}
                     variant="h2"
@@ -114,8 +112,8 @@ const Coverage: NextPage = () => {
               </Box>
             </Grid>
           </Grid>
-        </Container>
-      </Box>
+        </Box>
+      </Container>
     </Box>
   );
 };

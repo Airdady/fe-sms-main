@@ -9,6 +9,7 @@ import Button from "@mui/material/Button";
 import Head from "next/head";
 import Dropdown from "./Dropdown";
 import Link from "next/link";
+import Image from "next/image";
 
 const pages = [
   { name: "Developers", to: "/developers", id: 1 },
@@ -62,15 +63,12 @@ export default function ButtonAppBar() {
           <Toolbar>
             <Link href="/" passHref>
               <a>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                  AirDady
-                </Typography>
-                {/* <Image
-                src="/logo.svg"
-                alt="sms illustration"
-                width={270}
-                height={30}
-              /> */}
+                <Image
+                  src="/logo.svg"
+                  alt="sms illustration"
+                  width={150}
+                  height={30}
+                />
               </a>
             </Link>
             <Box display="flex" ml="auto">

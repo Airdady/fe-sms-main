@@ -44,6 +44,7 @@ export default function Contact() {
           <Grid item xs={12} md={6}>
             <Card sx={{ minWidth: 275 }}>
               <CardContent>
+                <Typography textAlign="center" py={2}>Fill The Contact Form Below</Typography>
                 <form>
                   <AField placeHolder="name" />
                   <AField placeHolder="email" />

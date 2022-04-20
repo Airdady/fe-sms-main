@@ -14,7 +14,7 @@ export default function Footer() {
     >
       <Container sx={{ py: 7 }} maxWidth="lg">
         <Grid container spacing={3}>
-          <Grid item md={6}>
+          <Grid item md={4}>
             <Typography variant="subtitle2">Contact</Typography>
             <Box sx={{ "*": { my: 1 }, my: 2 }}>
               <Link href="/">
@@ -25,7 +25,7 @@ export default function Footer() {
               </Link>
             </Box>
           </Grid>
-          <Grid item md={2}>
+          <Grid item md={2} sx={{ ml: "auto" }}>
             <Typography variant="subtitle2">Our Products</Typography>
             <Box sx={{ "*": { my: 1 }, my: 2 }}>
               <Typography variant="body2" gutterBottom>

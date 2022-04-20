@@ -26,17 +26,17 @@ const Sms: NextPage = () => {
                 <Box mt="auto">
                   <Typography
                     variant="h3"
-                    sx={{ fontWeight: "bold" }}
+                    sx={{ fontWeight: "bold", color: "white" }}
                     component="div"
                     gutterBottom
                   >
                     SMS Api
                   </Typography>
-                  <Typography variant="h6" gutterBottom>
+                  <Typography variant="h6" color="white" gutterBottom>
                     Increase the registration conversion rate and speed up your
                     business process
                   </Typography>
-                  <Typography variant="body2">
+                  <Typography variant="body2" color="white">
                     Help global users to carry out security verification through
                     the fastest way, retain every customer, let customers feel
                     the enterprises efficient service, promote the business
@@ -83,12 +83,12 @@ const Sms: NextPage = () => {
               </Box>
             </Grid>
             <Grid item xs={12} md={6}>
-              <Box display="flex" alignItems="center" justifyContent="center">
+              <Box display="flex" justifyContent="center">
                 <Image
                   src="/sms.svg"
                   alt="sms illustration"
                   width={400}
-                  height={500}
+                  height={350}
                 />
               </Box>
             </Grid>

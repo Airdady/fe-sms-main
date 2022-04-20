@@ -12,6 +12,7 @@ import Documentation from "./Home/Documentation";
 import Coverage from "./Home/Coverage";
 import Promo from "./Home/Promo";
 import AccordionComp from "./Home/AccordionComp";
+import { Carousel } from "antd";
 
 const Verification: NextPage = () => {
   return (
@@ -24,10 +25,10 @@ const Verification: NextPage = () => {
               <Box mt={7} display="flex" justifyContent="center">
                 <Box mt="auto">
                   <Typography
-                    style={{
+                    sx={{
+                      color: "white",
                       fontWeight: "bolder",
-                      textShadow: "0px 2px 3px rgba(255,255,255,0.5)",
-                      fontSize: "4.75rem",
+                      fontSize: "4.5rem",
                     }}
                     variant="h2"
                     component="div"
@@ -36,8 +37,8 @@ const Verification: NextPage = () => {
                     Cloud Messaging Provider
                   </Typography>
                   <Typography
-                    variant="h6"
-                    sx={{ fontWeight: "500" }}
+                    variant="subtitle2"
+                    sx={{ fontWeight: "300", color: "#f1f1f1" }}
                     gutterBottom
                   >
                     Help global users to carry out security verification through
@@ -55,12 +56,37 @@ const Verification: NextPage = () => {
                 height="100%"
                 justifyContent="center"
               >
+                <Carousel autoplay>
+                  <Image
+                    src="/home-banner.svg"
+                    alt="sms illustration"
+                    width={470}
+                    height={430}
+                  />
+                  {/* <Image
+                    key={2}
+                    src="/verification.svg"
+                    alt="verification illustration"
+                    width={470}
+                    height={430}
+                  /> */}
+                </Carousel>
+              </Box>
+            </Grid>
+            <Grid item xs={12} md={12}>
+              <Box
+                display="flex"
+                alignItems="center"
+                height="100%"
+                justifyContent="center"
+              >
                 <Image
-                  src="/home-banner.svg"
-                  alt="verification illustration"
-                  width={470}
-                  height={430}
-                  objectFit="contain"
+                  key={2}
+                  src="/sponsors.svg"
+                  alt="verification-illustration"
+                  width={500}
+                  height={80}
+                  
                 />
               </Box>
             </Grid>

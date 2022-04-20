@@ -1,0 +1,2810 @@
+[
+    {
+        "id": "AD",
+        "name": "Andorra",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0819",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AE",
+        "name": "United Arab Emirates",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0244",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AF",
+        "name": "Afghanistan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0903",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AG",
+        "name": "Antigua & Barbuda",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0396",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AI",
+        "name": "Anguilla",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0418",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AL",
+        "name": "Albania",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0622",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AM",
+        "name": "Armenia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0629",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AO",
+        "name": "Angola",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0315",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AR",
+        "name": "Argentina",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0529",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AS",
+        "name": "American Samoa",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0199",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AT",
+        "name": "Austria",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0709",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AU",
+        "name": "Australia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0384",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AW",
+        "name": "Aruba",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0315",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AX",
+        "name": "Åland Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "AZ",
+        "name": "Azerbaijan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1208",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BA",
+        "name": "Bosnia & Herzegovina",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0667",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BB",
+        "name": "Barbados",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0427",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BD",
+        "name": "Bangladesh",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1119",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BE",
+        "name": "Belgium",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0986",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BF",
+        "name": "Burkina Faso",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0501",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BG",
+        "name": "Bulgaria",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0893",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BH",
+        "name": "Bahrain",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0190",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BI",
+        "name": "Burundi",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0701",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BJ",
+        "name": "Benin",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0599",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BM",
+        "name": "Bermuda",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0732",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BN",
+        "name": "Brunei",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0189",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BO",
+        "name": "Bolivia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0650",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BR",
+        "name": "Brazil",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0522",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BS",
+        "name": "Bahamas",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0525",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BT",
+        "name": "Bhutan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1028",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BV",
+        "name": "Bouvet Island",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BW",
+        "name": "Botswana",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0780",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BY",
+        "name": "Belarus",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1208",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "BZ",
+        "name": "Belize",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0315",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CA",
+        "name": "Canada",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0098",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CD",
+        "name": "Congo - Kinshasa",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0735",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CF",
+        "name": "Central African Republic",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0262",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CG",
+        "name": "Congo - Brazzaville",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0339",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CH",
+        "name": "Switzerland",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0507",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CI",
+        "name": "Côte d’Ivoire",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0667",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CK",
+        "name": "Cook Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0262",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CL",
+        "name": "Chile",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0473",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CM",
+        "name": "Cameroon",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0497",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CN",
+        "name": "China",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0277",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CO",
+        "name": "Colombia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0396",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CR",
+        "name": "Costa Rica",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0373",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CV",
+        "name": "Cape Verde",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0793",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CW",
+        "name": "Curaçao",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CY",
+        "name": "Cyprus",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0652",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "CZ",
+        "name": "Czechia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0441",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "DE",
+        "name": "Germany",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0902",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "DJ",
+        "name": "Djibouti",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0964",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "DK",
+        "name": "Denmark",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0403",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "DM",
+        "name": "Dominica",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0418",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "DO",
+        "name": "Dominican Republic",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0514",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "DZ",
+        "name": "Algeria",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0964",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "EC",
+        "name": "Ecuador",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0814",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "EE",
+        "name": "Estonia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0740",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "EG",
+        "name": "Egypt",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0780",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "ER",
+        "name": "Eritrea",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0452",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "ES",
+        "name": "Spain",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0535",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "ET",
+        "name": "Ethiopia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1086",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "FI",
+        "name": "Finland",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0721",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "FJ",
+        "name": "Fiji",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0667",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "FK",
+        "name": "Falkland Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0554",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "FM",
+        "name": "Micronesia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0588",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "FO",
+        "name": "Faroe Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0241",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "FR",
+        "name": "France",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0610",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GA",
+        "name": "Gabon",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0938",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GB",
+        "name": "United Kingdom",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0350",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GD",
+        "name": "Grenada",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0475",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GE",
+        "name": "Georgia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0854",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GF",
+        "name": "French Guiana",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0787",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GG",
+        "name": "Guernsey",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GH",
+        "name": "Ghana",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0819",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GI",
+        "name": "Gibraltar",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0189",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GL",
+        "name": "Greenland",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0189",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GM",
+        "name": "Gambia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0554",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GN",
+        "name": "Guinea",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0961",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GP",
+        "name": "Guadeloupe",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GQ",
+        "name": "Equatorial Guinea",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0735",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GR",
+        "name": "Greece",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0441",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GT",
+        "name": "Guatemala",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0577",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GU",
+        "name": "Guam",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GW",
+        "name": "Guinea-Bissau",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0791",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "GY",
+        "name": "Guyana",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0441",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "HK",
+        "name": "Hong Kong SAR China",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0441",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "HM",
+        "name": "Heard & McDonald Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "HN",
+        "name": "Honduras",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0346",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "HR",
+        "name": "Croatia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0463",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "HT",
+        "name": "Haiti",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0586",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "HU",
+        "name": "Hungary",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0643",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "ID",
+        "name": "Indonesia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1501",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "IE",
+        "name": "Ireland",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0622",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "IL",
+        "name": "Israel",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0629",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "IM",
+        "name": "Isle of Man",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "IN",
+        "name": "India",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0299",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "IO",
+        "name": "British Indian Ocean Territory",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "IQ",
+        "name": "Iraq",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0949",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "IS",
+        "name": "Iceland",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0509",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "IT",
+        "name": "Italy",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0751",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "JE",
+        "name": "Jersey",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "JM",
+        "name": "Jamaica",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0441",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "JO",
+        "name": "Jordan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1119",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "JP",
+        "name": "Japan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0685",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "KE",
+        "name": "Kenya",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0624",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "KG",
+        "name": "Kyrgyzstan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1159",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "KH",
+        "name": "Cambodia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0848",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "KI",
+        "name": "Kiribati",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0667",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "KM",
+        "name": "Comoros",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0189",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "KN",
+        "name": "St. Kitts & Nevis",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0399",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "KR",
+        "name": "South Korea",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0396",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "KW",
+        "name": "Kuwait",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1010",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "KY",
+        "name": "Cayman Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0315",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "KZ",
+        "name": "Kazakhstan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1111",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "LA",
+        "name": "Laos",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0357",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "LB",
+        "name": "Lebanon",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0893",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "LC",
+        "name": "St. Lucia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0418",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "LI",
+        "name": "Liechtenstein",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0315",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "LK",
+        "name": "Sri Lanka",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1074",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "LR",
+        "name": "Liberia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0554",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "LS",
+        "name": "Lesotho",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0735",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "LT",
+        "name": "Lithuania",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0305",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "LU",
+        "name": "Luxembourg",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0667",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "LV",
+        "name": "Latvia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0556",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "LY",
+        "name": "Libya",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1119",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MA",
+        "name": "Morocco",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0683",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MC",
+        "name": "Monaco",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0893",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MD",
+        "name": "Moldova",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0420",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "ME",
+        "name": "Montenegro",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0384",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MF",
+        "name": "St. Martin",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MG",
+        "name": "Madagascar",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1006",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MH",
+        "name": "Marshall Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0839",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MK",
+        "name": "North Macedonia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0554",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "ML",
+        "name": "Mali",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0787",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MM",
+        "name": "Myanmar (Burma)",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0755",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MN",
+        "name": "Mongolia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0791",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MO",
+        "name": "Macao SAR China",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0294",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MP",
+        "name": "Northern Mariana Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MQ",
+        "name": "Martinique",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MR",
+        "name": "Mauritania",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0903",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MS",
+        "name": "Montserrat",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0476",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MT",
+        "name": "Malta",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0488",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MU",
+        "name": "Mauritius",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0791",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MV",
+        "name": "Maldives",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0210",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MW",
+        "name": "Malawi",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0848",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MX",
+        "name": "Mexico",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0377",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MY",
+        "name": "Malaysia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0441",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "MZ",
+        "name": "Mozambique",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0311",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NA",
+        "name": "Namibia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0475",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NC",
+        "name": "New Caledonia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1119",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NE",
+        "name": "Niger",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0667",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NF",
+        "name": "Norfolk Island",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NG",
+        "name": "Nigeria",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0836",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NI",
+        "name": "Nicaragua",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0441",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NL",
+        "name": "Netherlands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0887",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NO",
+        "name": "Norway",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0519",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NP",
+        "name": "Nepal",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0787",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NR",
+        "name": "Nauru",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0472",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NU",
+        "name": "Niue",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0839",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "NZ",
+        "name": "New Zealand",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0820",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "OM",
+        "name": "Oman",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0647",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PA",
+        "name": "Panama",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0525",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PE",
+        "name": "Peru",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0336",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PF",
+        "name": "French Polynesia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0893",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PG",
+        "name": "Papua New Guinea",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0509",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PH",
+        "name": "Philippines",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0362",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PK",
+        "name": "Pakistan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0893",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PL",
+        "name": "Poland",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0321",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PM",
+        "name": "St. Pierre & Miquelon",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0712",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PN",
+        "name": "Pitcairn Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PR",
+        "name": "Puerto Rico",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0328",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PS",
+        "name": "Palestinian Territories",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PT",
+        "name": "Portugal",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0384",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PW",
+        "name": "Palau",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0588",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "PY",
+        "name": "Paraguay",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0164",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "QA",
+        "name": "Qatar",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0499",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "RE",
+        "name": "Réunion",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1208",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "RO",
+        "name": "Romania",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0614",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "RS",
+        "name": "Serbia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0350",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "RU",
+        "name": "Russia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0689",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "RW",
+        "name": "Rwanda",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0525",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SA",
+        "name": "Saudi Arabia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0451",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SB",
+        "name": "Solomon Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0315",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SC",
+        "name": "Seychelles",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0283",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SE",
+        "name": "Sweden",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0598",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SG",
+        "name": "Singapore",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0326",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SH",
+        "name": "St. Helena",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SI",
+        "name": "Slovenia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0312",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SJ",
+        "name": "Svalbard & Jan Mayen",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SK",
+        "name": "Slovakia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0667",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SL",
+        "name": "Sierra Leone",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0497",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SM",
+        "name": "San Marino",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0399",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SN",
+        "name": "Senegal",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0819",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SO",
+        "name": "Somalia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0848",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SR",
+        "name": "Suriname",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0407",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SS",
+        "name": "South Sudan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0486",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "ST",
+        "name": "São Tomé & Príncipe",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0633",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SV",
+        "name": "El Salvador",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0476",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SX",
+        "name": "Sint Maarten",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "SZ",
+        "name": "Eswatini",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0653",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TC",
+        "name": "Turks & Caicos Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0441",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TD",
+        "name": "Chad",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0836",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TG",
+        "name": "Togo",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0441",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TH",
+        "name": "Thailand",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0215",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TJ",
+        "name": "Tajikistan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1342",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TK",
+        "name": "Tokelau",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TL",
+        "name": "Timor-Leste",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0667",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TM",
+        "name": "Turkmenistan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1050",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TN",
+        "name": "Tunisia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0893",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TO",
+        "name": "Tonga",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0576",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TR",
+        "name": "Turkey",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0201",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TT",
+        "name": "Trinidad & Tobago",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0441",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TV",
+        "name": "Tuvalu",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0839",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TW",
+        "name": "Taiwan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0386",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "TZ",
+        "name": "Tanzania",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0689",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "UA",
+        "name": "Ukraine",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1013",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "UG",
+        "name": "Uganda",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0768",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "US",
+        "name": "United States",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0075",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "UY",
+        "name": "Uruguay",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0610",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "UZ",
+        "name": "Uzbekistan",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1413",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "VA",
+        "name": "Vatican City",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "VC",
+        "name": "St. Vincent & Grenadines",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0409",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "VE",
+        "name": "Venezuela",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0359",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "VG",
+        "name": "British Virgin Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0441",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "VI",
+        "name": "U.S. Virgin Islands",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "VN",
+        "name": "Vietnam",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0525",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "VU",
+        "name": "Vanuatu",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0336",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "WF",
+        "name": "Wallis & Futuna",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0735",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "WS",
+        "name": "Samoa",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0384",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "YT",
+        "name": "Mayotte",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.1110",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "ZA",
+        "name": "South Africa",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0136",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "ZM",
+        "name": "Zambia",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0830",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    },
+    {
+        "id": "ZW",
+        "name": "Zimbabwe",
+        "operator": null,
+        "price": {
+            "online": {
+                "unit_price": "0.0588",
+                "setup_fee": "0.0000",
+                "price_type": "message"
+            }
+        }
+    }
+]
