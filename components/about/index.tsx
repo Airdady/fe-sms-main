@@ -2,38 +2,19 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import ResponsiveAppBar from "../../components/AppBar";
+import ResponsiveAppBar from "../AppBar";
 import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import CodeSection from "../../components/CodeSection";
-import Footer from "../../components/Footer";
+import CodeSection from "../CodeSection";
+import Footer from "../Footer";
 import Link from "next/link";
 import Values from "./Values";
 import Team from "./Team";
 
-const About: NextPage = () => {
+const About = () => {
   return (
-    <Box>
-      <ResponsiveAppBar />
-      
-      <Box
-        sx={{
-          bgcolor: "#41AACB",
-          width: "100%",
-          height: "200px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <Typography
-          variant="h3"
-          sx={{ fontFamily: "poppins", fontWeight: 600, mt: -4.7 }}
-        >
-          AirDady Company Profile
-        </Typography>
-      </Box>
+    <>
       <Container maxWidth="lg">
           <Grid container spacing={2} p={3}>
             <Grid item xs={12} md={6}>
@@ -138,9 +119,8 @@ const About: NextPage = () => {
         </Box>
       </Container>
       <Values />
-      <Team />
-      <Footer />
-    </Box>
+     
+    </>
   );
 };
 
