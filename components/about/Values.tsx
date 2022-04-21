@@ -47,9 +47,8 @@ const Values = () => {
                 <Typography variant="body2" gutterBottom>
                   At AirDady, we put our customers at the heart of everything we
                   do. And by customers, we mean the people at organizations that
-                  rely on AirDady for their day-to-day challenges. They care
-                  about value, so we care about delivering more value fast over
-                  being perfect. We choose progress over perfection.
+                  rely on AirDady for their day-to-day challenges. We choose
+                  progress over perfection.
                 </Typography>
               </Box>
             </Item>
@@ -63,11 +62,9 @@ const Values = () => {
                     At AirDady success is not measured in profits alone but
                     rather in the contributions to all stakeholders; our team,
                     customers, end-users, partners, the community, and the
-                    planet. We are honest, tolerant, and inclusive. We celebrate
-                    the uniqueness and strength found in diversity. We all
-                    commit to creating a safe working environment and are allies
-                    to those less privileged. We protect each other’s time as
-                    well as our own.
+                    planet. We are honest, tolerant, and inclusive. We all
+                    commit to creating a safe working environment. We protect
+                    each other’s time as well as our own.
                   </Typography>
                 </Box>
               </Item>
@@ -76,16 +73,14 @@ const Values = () => {
               <Item>
                 <Box p={3}>
                   <Typography variant="h6" gutterBottom>
-                    3. Build trust with transparency
+                    3. Intergrity
                   </Typography>
                   <Typography variant="body2" gutterBottom>
                     We communicate with our team, customers, users, and
                     end-users in a clear, timely, and open way. We do not shy
                     away from crucial conversations. We give each other
-                    radically candid feedback and never wait to do so. We
-                    understand that this can feel uncomfortable. We agree that
-                    these conditions enable us to thrive and grow together - as
-                    individuals, as a team, and as a business. We have the
+                    radically  feedback and never wait to do so. We
+                    understand that this can feel uncomfortable.  We have the
                     courage to speak up and challenge each other. Asking
                     questions or reaching out for help are acts of strength, not
                     weakness.

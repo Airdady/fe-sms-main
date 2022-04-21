@@ -7,11 +7,13 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Footer from "../../components/Footer";
 import React from "react";
-import AField from "../../components/AField";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import JobList from "../../components/JobList";
 import Contact from "../../components/contact";
+import About from "../../components/about";
+import Team from "../../components/about/Team";
+
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -84,65 +86,7 @@ const Company: NextPage = () => {
             </Tabs>
           </Box>
           <TabPanel value={value} index={0}>
-            <div>ABOUT</div>
-            <div>Mission</div>
-            <div>OUR Values</div>
-            <Box sx={{ width: "100%" }}>
-              <Grid
-                container
-                rowSpacing={1}
-                columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-              >
-                <Grid item xs={6}>
-                  <Box p={4}>
-                    <Typography textAlign="center" variant="h6">
-                      Distinct
-                    </Typography>
-                    <Typography textAlign="center" variant="body2">
-                      We review applications to screen for a variety of
-                      criteria.
-                    </Typography>
-                  </Box>
-                </Grid>
-                <Grid item xs={6}>
-                  <Box p={4}>
-                    <Typography textAlign="center" variant="h6">
-                      Integrity
-                    </Typography>
-                    <Typography textAlign="center" variant="body2">
-                      A quick chat with one of our tech recruiters to get to
-                      know you a little better.
-                    </Typography>
-                  </Box>
-                </Grid>
-                <Grid item xs={6}>
-                  <Box p={4}>
-                    <Typography textAlign="center" variant="h6">
-                      Passion
-                    </Typography>
-                    <Typography textAlign="center" variant="body2">
-                      An interview with Airdady engineers, learning more about
-                      your technical and team experiencies
-                    </Typography>
-                  </Box>
-                </Grid>
-                <Grid item xs={6}>
-                  <Box p={4}>
-                    <Typography textAlign="center" variant="h6">
-                      Team work
-                    </Typography>
-                    <Typography textAlign="center" variant="body2">
-                      We make an offer to the candidate we feel is the best fit
-                      for the role.
-                    </Typography>
-                  </Box>
-                </Grid>
-              </Grid>
-            </Box>
-
-            <div>Career</div>
-            <div>Interview process</div>
-            <div>OUR TEAM</div>
+            <About/>
           </TabPanel>
           <TabPanel value={value} index={1}>
             <Box textAlign="center" my={6}>
@@ -213,8 +157,12 @@ const Company: NextPage = () => {
             </Box>
           </TabPanel>
           <TabPanel value={value} index={2}>
+            <Team/>
+          </TabPanel>
+          <TabPanel value={value} index={3}>
             <Contact/>
           </TabPanel>
+         
         </Box>
       </Container>
       <Footer />
