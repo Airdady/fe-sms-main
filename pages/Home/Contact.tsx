@@ -9,7 +9,7 @@ import AField from "../../components/AField";
 
 export default function Contact() {
   return (
-    <Box sx={{ pt: 3, pb: 3, bgcolor: "#D3D3D3" }}>
+    <Box sx={{ py: 7, bgcolor: "#D3D3D3" }}>
       <Container
         sx={{
           backgroundRepeat: "no-repeat",
@@ -44,6 +44,7 @@ export default function Contact() {
           <Grid item xs={12} md={6}>
             <Card sx={{ minWidth: 275 }}>
               <CardContent>
+                <Typography textAlign="center" py={2}>Fill The Contact Form Below</Typography>
                 <form>
                   <AField placeHolder="name" />
                   <AField placeHolder="email" />

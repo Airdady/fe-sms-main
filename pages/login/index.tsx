@@ -9,31 +9,11 @@ import styles from "./login.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import PlainAppBar from "../../components/PlainAppBar";
-import { useSelector, useDispatch } from "react-redux";
-import { login } from "../../store/slices/authThunk";
 
 const Login: NextPage = () => {
   const router = useRouter();
-  const dispatch = useDispatch();
 
   const onFinish = async (values: any) => {
-    console.log("Received values of form: ", values);
-
-    let email = values.email;
-    let password = values.password;
-
-    dispatch(login({ email, password }));
-    // await fetch("https://api.sms.airdady.com/auth/login", {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/json" },
-    //   body: JSON.stringify({
-    //     email,
-    //     password,
-    //   }),
-    // })
-    //   .then((response) => response.json())
-    //   .then((data) => console.log(data));
-
     await router.push("/");
   };
 

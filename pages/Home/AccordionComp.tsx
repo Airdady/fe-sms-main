@@ -58,7 +58,7 @@ export default function AccordionComp() {
       <Box
         sx={{
           margin: 3,
-          mb: 7,
+          py: 10,
           bgcolor: "#ffffff",
           width: "100%",
           height: "auto",

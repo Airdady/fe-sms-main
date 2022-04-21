@@ -13,7 +13,7 @@ import Link from "next/link";
 interface MsgProps {
   mainText?: string;
   subText?: string;
-  direction?: string;
+  direction: string;
 }
 
 const Message = ({ mainText, subText, direction }: MsgProps) => {
@@ -66,7 +66,9 @@ const Message = ({ mainText, subText, direction }: MsgProps) => {
               type="primary"
               htmlType="submit"
             >
-              <Link href={direction}>Login</Link>
+              <Link href={direction} >
+                <a>Login</a>
+              </Link>
             </Button>
           </Box>
         </Box>

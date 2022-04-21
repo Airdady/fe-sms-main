@@ -28,22 +28,23 @@ const Verification: NextPage = () => {
                     variant="h3"
                     sx={{ fontWeight: "bold" }}
                     component="div"
+                    color="white"
                     gutterBottom
                   >
                     Verification Api
                   </Typography>
-                  <Typography variant="h6" gutterBottom>
+                  <Typography variant="h6" color="white" gutterBottom>
                     Increase the registration conversion rate and speed up your
                     business process
                   </Typography>
-                  <Typography variant="body2">
+                  <Typography color="white" variant="body2">
                     Help global users to carry out security verification through
                     the fastest way, retain every customer, let customers feel
                     the enterprises efficient service, promote the business
                     development of the enterprise.
                   </Typography>
                   <Box display="flex" mt={3}>
-                    <Link href="/register">
+                    <Link href="/register" passHref>
                       <Button
                         sx={{
                           textTransform: "capitalize",
@@ -59,7 +60,7 @@ const Verification: NextPage = () => {
                       </Button>
                     </Link>
 
-                    <Link href="/contact">
+                    <Link href="/contact" passHref>
                       <Button
                         sx={{
                           ml: 2,
@@ -88,7 +89,7 @@ const Verification: NextPage = () => {
                   src="/verification.svg"
                   alt="verification illustration"
                   width={400}
-                  height={400}
+                  height={350}
                 />
               </Box>
             </Grid>

@@ -20,7 +20,7 @@ export default function PlainAppBar() {
           sx={{ boxShadow: 0, paddingLeft: 5, paddingTop: 3 }}
         >
           <Toolbar variant="dense">
-            <Link href="/">
+            <Link href="/" passHref>
               <Typography variant="h4" color="#008BB7" component="div">
                 Airdady
               </Typography>

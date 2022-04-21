@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -8,10 +9,12 @@ import Button from "@mui/material/Button";
 import Head from "next/head";
 import Dropdown from "./Dropdown";
 import Link from "next/link";
+import Image from "next/image";
 
 const pages = [
   { name: "Developers", to: "/developers", id: 1 },
   { name: "Pricing", to: "/pricing", id: 2 },
+  { name: "Company", to: "/company", id: 3 },
 ];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
@@ -58,22 +61,21 @@ export default function ButtonAppBar() {
       <AppBar sx={{ bgcolor: "#41AACB" }} position="static">
         <Container maxWidth="lg">
           <Toolbar>
-            <Link href="/">
-              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                AirDady
-              </Typography>
-              {/* <Image
-                src="/logo.svg"
-                alt="sms illustration"
-                width={270}
-                height={30}
-              /> */}
+            <Link href="/" passHref>
+              <a>
+                <Image
+                  src="/logo.svg"
+                  alt="sms illustration"
+                  width={150}
+                  height={30}
+                />
+              </a>
             </Link>
-            <Box display="flex">
+            <Box display="flex" ml="auto">
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
                 <Dropdown />
                 {pages.map((page) => (
-                  <Link key={1} href={page.to}>
+                  <Link key={1} href={page.to} passHref>
                     <Button
                       key={page.id}
                       sx={{
