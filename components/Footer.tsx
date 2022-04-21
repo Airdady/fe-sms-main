@@ -50,7 +50,9 @@ export default function Footer() {
               </Typography>
               <Typography variant="body2" gutterBottom>
                 <Link href="/">
+
                   <a>Server SDKs</a>
+
                 </Link>
               </Typography>
               <Typography variant="body2" gutterBottom>
@@ -61,6 +63,9 @@ export default function Footer() {
               <Typography variant="body2" gutterBottom>
                 <Link href="/projects">
                   <a>Sample Projects</a>
+
+                 
+
                 </Link>
               </Typography>
             </Box>
