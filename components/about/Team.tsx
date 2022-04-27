@@ -47,6 +47,7 @@ const Team = () => {
                 flexDirection:"column",
                 alignItems:"center",
                 justifyContent:"center",
+                boxShadow: "0 2px 10px rgb(0 0 0/25%)"
                 
                 }} 
                 p={2} 

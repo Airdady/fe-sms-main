@@ -1,83 +1,77 @@
-import type { NextPage } from "next";
 import Image from "next/image";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import ResponsiveAppBar from "../AppBar";
 import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import CodeSection from "../CodeSection";
-import Footer from "../Footer";
-import Link from "next/link";
 import Values from "./Values";
-import Team from "./Team";
 
 const About = () => {
   return (
     <>
       <Container maxWidth="lg">
-          <Grid container spacing={2} p={3}>
-            <Grid item xs={12} md={6}>
-              <Box mt={6} display="flex" justifyContent="center">
-                <Box mt="auto">
-                  <Typography
-                    variant="h4"
-                    sx={{ fontWeight: "bold" }}
-                    component="div"
-                    gutterBottom
-                  >
-                    Our Story
-                  </Typography>
-                  <Typography variant="body2">
-                    AirDady is a software development company established by
-                    Rumbiiha Swaibu, a renowned Senior Developer who worked in
-                    Andela and Silensec . The company was founded in 2019 in
-                    Uganda. Recently, it opened its first office in Hoima,
-                    Uganda and is seeking to expand to the USA in the next few
-                    years.
-                  </Typography>
-                  <Typography
-                    variant="h4"
-                    sx={{ fontWeight: "bold" }}
-                    component="div"
-                    gutterBottom
-                  >
-                    Our Mission
-                  </Typography>
-                  <Typography variant="body2">
-                    AirDady is dedicated to providing efficient and long term
-                    software solutions for your business to increase your
-                    performance and competence in the industry.
-                  </Typography>
-                  <Typography
-                    variant="h4"
-                    sx={{ fontWeight: "bold" }}
-                    component="div"
-                    gutterBottom
-                  >
-                    Our Vision
-                  </Typography>
-                  <Typography variant="body2">
-                    To become a prime name in the business of Software
-                    Development in providing excellent and lasting services that
-                    help promote growth and facilitate the progress of a
-                    business through modern technology.
-                  </Typography>
-                </Box>
+        <Grid container spacing={2} p={3}>
+          <Grid item xs={12} md={6}>
+            <Box mt={6} display="flex" justifyContent="center">
+              <Box mt="auto">
+                <Typography
+                  variant="h4"
+                  sx={{ fontWeight: "bold" }}
+                  component="div"
+                  gutterBottom
+                >
+                  Our Story
+                </Typography>
+                <Typography variant="body2">
+                  AirDady is a software development company established by a
+                  a small team of highly profiled Software Engineers.To Provide
+                  software Development services , digital security, blockchain,
+                  and financial tech solutions to grow your business. The
+                  company was founded in 2019 in Uganda. Recently, opened it's
+                  first office in Hoima, Uganda and is seeking to expand to the
+                  USA in the next few years.
+                </Typography>
+                <Typography
+                  variant="h4"
+                  sx={{ fontWeight: "bold" }}
+                  component="div"
+                  gutterBottom
+                >
+                  Our Mission
+                </Typography>
+                <Typography variant="body2">
+                  AirDady is dedicated to providing efficient and long term
+                  software solutions for your business to increase your
+                  performance and competence in the industry.
+                </Typography>
+                <Typography
+                  variant="h4"
+                  sx={{ fontWeight: "bold" }}
+                  component="div"
+                  gutterBottom
+                >
+                  Our Vision
+                </Typography>
+                <Typography variant="body2">
+                  To become a prime name in the business of Software Development
+                  in providing excellent and lasting services that help promote
+                  growth and facilitate the progress of a business through
+                  modern technology.
+                </Typography>
               </Box>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <Box display="flex" alignItems="center" justifyContent="center">
-                <Image
-                 src="/cover.jpg"
-                  alt="sms illustration"
-                  width={500}
-                  height={400}
-                />
-              </Box>
-            </Grid>
+            </Box>
           </Grid>
-        </Container>
+          <Grid item xs={12} md={6}>
+            <Box display="flex" alignItems="center" justifyContent="center">
+              <Image
+                src="/cover.jpg"
+                alt="sms illustration"
+                width={500}
+                height={400}
+              />
+            </Box>
+          </Grid>
+        </Grid>
+      </Container>
       <Container maxWidth="lg">
         <Box py={4}>
           <Grid container spacing={2}>
@@ -119,7 +113,6 @@ const About = () => {
         </Box>
       </Container>
       <Values />
-     
     </>
   );
 };
