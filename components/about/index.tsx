@@ -24,7 +24,7 @@ const About = () => {
                 <Typography variant="body2">
                   AirDady is a software development company established by
                   a small team of highly profiled Software Engineers.To Provide
-                  software Development services , digital security, blockchain,
+                  software Development services , digital security, we design Unique Web,
                   and financial tech solutions to grow your business. The
                   company was founded in 2019 in Uganda. Recently, opened it's
                   first office in Hoima, Uganda and is seeking to expand to the
