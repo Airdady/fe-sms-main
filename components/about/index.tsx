@@ -22,7 +22,7 @@ const About = () => {
                   Our Story
                 </Typography>
                 <Typography variant="body2">
-                  AirDady is a software development company established by a
+                  AirDady is a software development company established by
                   a small team of highly profiled Software Engineers.To Provide
                   software Development services , digital security, blockchain,
                   and financial tech solutions to grow your business. The
